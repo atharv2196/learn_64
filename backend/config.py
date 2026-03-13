@@ -43,6 +43,10 @@ class Settings(BaseSettings):
     SMTP_PASSWORD: str = ""
     SMTP_FROM: str = "Learn_64 <noreply@learn64.com>"
 
+    # ── Resend (recommended on Render for OTP emails) ───
+    RESEND_API_KEY: str = ""
+    RESEND_FROM: str = ""
+
     model_config = {"env_file": ".env", "env_file_encoding": "utf-8"}
 
 
