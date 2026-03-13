@@ -29,7 +29,11 @@ def otp_expiry(minutes: int = 10) -> datetime:
 
 def send_otp_email(to_email: str, otp_code: str) -> bool:
     """Send an OTP verification email. Returns True on success."""
-    if not settings.SMTP_USER or not settings.SMTP_PASSWORD:
+    smtp_user = (settings.SMTP_USER or "").strip()
+    # Gmail app passwords are often copied with spaces like "abcd efgh ijkl mnop".
+    smtp_password = (settings.SMTP_PASSWORD or "").replace(" ", "").strip()
+
+    if not smtp_user or not smtp_password:
         logger.warning("SMTP not configured – OTP for %s is: %s", to_email, otp_code)
         return True  # In dev, just log it
 
@@ -43,13 +47,14 @@ def send_otp_email(to_email: str, otp_code: str) -> bool:
 
     msg = MIMEText(body)
     msg["Subject"] = subject
-    msg["From"] = settings.SMTP_FROM
+    # Use authenticated sender for maximum Gmail compatibility.
+    msg["From"] = smtp_user
     msg["To"] = to_email
 
     try:
         with smtplib.SMTP(settings.SMTP_HOST, settings.SMTP_PORT) as server:
             server.starttls()
-            server.login(settings.SMTP_USER, settings.SMTP_PASSWORD)
+            server.login(smtp_user, smtp_password)
             server.send_message(msg)
         logger.info("OTP email sent to %s", to_email)
         return True
