@@ -47,7 +47,12 @@ async def request_otp(
 
     sent = send_otp_email(current_user.email, otp)
     if not sent:
-        raise HTTPException(status_code=500, detail="Failed to send OTP email.")
+        return {
+            "detail": (
+                "OTP generated but email delivery failed. "
+                "Open backend logs to copy the OTP code."
+            )
+        }
 
     return {"detail": "OTP sent to your email."}
 
