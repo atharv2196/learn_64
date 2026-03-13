@@ -1,0 +1,830 @@
+{
+  "id": "latvian_gambit",
+  "opening": "Latvian Gambit",
+  "category": "Gambit",
+  "description": "Latvian Gambit – 12 variation(s). Includes: Latvian Gambit, Latvian Gambit Accepted, Bilguer Variation…",
+  "side": "black",
+  "lines": [
+    {
+      "line_name": "Latvian Gambit",
+      "description": "ECO C40 – Latvian Gambit",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "auto",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "type": "student",
+          "move": "f7f5",
+          "san": "f5",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Latvian Gambit Accepted",
+      "description": "ECO C40 – Latvian Gambit Accepted",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "auto",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "type": "student",
+          "move": "f7f5",
+          "san": "f5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp2pp/8/4pp2/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+          "type": "auto",
+          "move": "e4f5",
+          "san": "exf5",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Bilguer Variation",
+      "description": "ECO C40 – Latvian Gambit Accepted: Bilguer Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "auto",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "type": "student",
+          "move": "f7f5",
+          "san": "f5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp2pp/8/4pp2/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+          "type": "auto",
+          "move": "f3e5",
+          "san": "Nxe5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp2pp/8/4Np2/4P3/8/PPPP1PPP/RNBQKB1R b KQkq - 0 3",
+          "type": "student",
+          "move": "d8f6",
+          "san": "Qf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kbnr/pppp2pp/5q2/4Np2/4P3/8/PPPP1PPP/RNBQKB1R w KQkq - 1 4",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kbnr/pppp2pp/5q2/4Np2/3PP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+          "type": "student",
+          "move": "d7d6",
+          "san": "d6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kbnr/ppp3pp/3p1q2/4Np2/3PP3/8/PPP2PPP/RNBQKB1R w KQkq - 0 5",
+          "type": "auto",
+          "move": "e5c4",
+          "san": "Nc4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Bronstein Attack",
+      "description": "ECO C40 – Latvian Gambit Accepted: Bronstein Attack",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "auto",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "type": "student",
+          "move": "f7f5",
+          "san": "f5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp2pp/8/4pp2/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+          "type": "auto",
+          "move": "f3e5",
+          "san": "Nxe5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp2pp/8/4Np2/4P3/8/PPPP1PPP/RNBQKB1R b KQkq - 0 3",
+          "type": "student",
+          "move": "d8f6",
+          "san": "Qf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kbnr/pppp2pp/5q2/4Np2/4P3/8/PPPP1PPP/RNBQKB1R w KQkq - 1 4",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kbnr/pppp2pp/5q2/4Np2/3PP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+          "type": "student",
+          "move": "d7d6",
+          "san": "d6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kbnr/ppp3pp/3p1q2/4Np2/3PP3/8/PPP2PPP/RNBQKB1R w KQkq - 0 5",
+          "type": "auto",
+          "move": "e5c4",
+          "san": "Nc4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kbnr/ppp3pp/3p1q2/5p2/2NPP3/8/PPP2PPP/RNBQKB1R b KQkq - 1 5",
+          "type": "student",
+          "move": "f5e4",
+          "san": "fxe4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kbnr/ppp3pp/3p1q2/8/2NPp3/8/PPP2PPP/RNBQKB1R w KQkq - 0 6",
+          "type": "auto",
+          "move": "f1e2",
+          "san": "Be2",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Bronstein Gambit",
+      "description": "ECO C40 – Latvian Gambit Accepted: Bronstein Gambit",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "auto",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "type": "student",
+          "move": "f7f5",
+          "san": "f5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp2pp/8/4pp2/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+          "type": "auto",
+          "move": "f3e5",
+          "san": "Nxe5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp2pp/8/4Np2/4P3/8/PPPP1PPP/RNBQKB1R b KQkq - 0 3",
+          "type": "student",
+          "move": "d8f6",
+          "san": "Qf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kbnr/pppp2pp/5q2/4Np2/4P3/8/PPPP1PPP/RNBQKB1R w KQkq - 1 4",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kbnr/pppp2pp/5q2/4Np2/3PP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+          "type": "student",
+          "move": "d7d6",
+          "san": "d6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kbnr/ppp3pp/3p1q2/4Np2/3PP3/8/PPP2PPP/RNBQKB1R w KQkq - 0 5",
+          "type": "auto",
+          "move": "e5c4",
+          "san": "Nc4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kbnr/ppp3pp/3p1q2/5p2/2NPP3/8/PPP2PPP/RNBQKB1R b KQkq - 1 5",
+          "type": "student",
+          "move": "f5e4",
+          "san": "fxe4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kbnr/ppp3pp/3p1q2/8/2NPp3/8/PPP2PPP/RNBQKB1R w KQkq - 0 6",
+          "type": "auto",
+          "move": "d1h5",
+          "san": "Qh5+",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kbnr/ppp3pp/3p1q2/7Q/2NPp3/8/PPP2PPP/RNB1KB1R b KQkq - 1 6",
+          "type": "student",
+          "move": "g7g6",
+          "san": "g6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kbnr/ppp4p/3p1qp1/7Q/2NPp3/8/PPP2PPP/RNB1KB1R w KQkq - 0 7",
+          "type": "auto",
+          "move": "h5e2",
+          "san": "Qe2",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Foltys Variation",
+      "description": "ECO C40 – Latvian Gambit Accepted: Foltys Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "auto",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "type": "student",
+          "move": "f7f5",
+          "san": "f5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp2pp/8/4pp2/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+          "type": "auto",
+          "move": "f3e5",
+          "san": "Nxe5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp2pp/8/4Np2/4P3/8/PPPP1PPP/RNBQKB1R b KQkq - 0 3",
+          "type": "student",
+          "move": "d8f6",
+          "san": "Qf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kbnr/pppp2pp/5q2/4Np2/4P3/8/PPPP1PPP/RNBQKB1R w KQkq - 1 4",
+          "type": "auto",
+          "move": "e5c4",
+          "san": "Nc4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kbnr/pppp2pp/5q2/5p2/2N1P3/8/PPPP1PPP/RNBQKB1R b KQkq - 2 4",
+          "type": "student",
+          "move": "f5e4",
+          "san": "fxe4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kbnr/pppp2pp/5q2/8/2N1p3/8/PPPP1PPP/RNBQKB1R w KQkq - 0 5",
+          "type": "auto",
+          "move": "d2d3",
+          "san": "d3",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Foltys-Leonhardt Variation",
+      "description": "ECO C40 – Latvian Gambit Accepted: Foltys-Leonhardt Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "auto",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "type": "student",
+          "move": "f7f5",
+          "san": "f5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp2pp/8/4pp2/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+          "type": "auto",
+          "move": "f3e5",
+          "san": "Nxe5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp2pp/8/4Np2/4P3/8/PPPP1PPP/RNBQKB1R b KQkq - 0 3",
+          "type": "student",
+          "move": "d8f6",
+          "san": "Qf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kbnr/pppp2pp/5q2/4Np2/4P3/8/PPPP1PPP/RNBQKB1R w KQkq - 1 4",
+          "type": "auto",
+          "move": "e5c4",
+          "san": "Nc4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Leonhardt Variation",
+      "description": "ECO C40 – Latvian Gambit Accepted: Leonhardt Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "auto",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "type": "student",
+          "move": "f7f5",
+          "san": "f5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp2pp/8/4pp2/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+          "type": "auto",
+          "move": "f3e5",
+          "san": "Nxe5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp2pp/8/4Np2/4P3/8/PPPP1PPP/RNBQKB1R b KQkq - 0 3",
+          "type": "student",
+          "move": "d8f6",
+          "san": "Qf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kbnr/pppp2pp/5q2/4Np2/4P3/8/PPPP1PPP/RNBQKB1R w KQkq - 1 4",
+          "type": "auto",
+          "move": "e5c4",
+          "san": "Nc4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kbnr/pppp2pp/5q2/5p2/2N1P3/8/PPPP1PPP/RNBQKB1R b KQkq - 2 4",
+          "type": "student",
+          "move": "f5e4",
+          "san": "fxe4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kbnr/pppp2pp/5q2/8/2N1p3/8/PPPP1PPP/RNBQKB1R w KQkq - 0 5",
+          "type": "auto",
+          "move": "b1c3",
+          "san": "Nc3",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Main Line",
+      "description": "ECO C40 – Latvian Gambit Accepted: Main Line",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "auto",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "type": "student",
+          "move": "f7f5",
+          "san": "f5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp2pp/8/4pp2/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+          "type": "auto",
+          "move": "f3e5",
+          "san": "Nxe5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp2pp/8/4Np2/4P3/8/PPPP1PPP/RNBQKB1R b KQkq - 0 3",
+          "type": "student",
+          "move": "d8f6",
+          "san": "Qf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kbnr/pppp2pp/5q2/4Np2/4P3/8/PPPP1PPP/RNBQKB1R w KQkq - 1 4",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Nimzowitsch Attack",
+      "description": "ECO C40 – Latvian Gambit Accepted: Nimzowitsch Attack",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "auto",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "type": "student",
+          "move": "f7f5",
+          "san": "f5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp2pp/8/4pp2/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+          "type": "auto",
+          "move": "f3e5",
+          "san": "Nxe5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp2pp/8/4Np2/4P3/8/PPPP1PPP/RNBQKB1R b KQkq - 0 3",
+          "type": "student",
+          "move": "d8f6",
+          "san": "Qf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kbnr/pppp2pp/5q2/4Np2/4P3/8/PPPP1PPP/RNBQKB1R w KQkq - 1 4",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kbnr/pppp2pp/5q2/4Np2/3PP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+          "type": "student",
+          "move": "d7d6",
+          "san": "d6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kbnr/ppp3pp/3p1q2/4Np2/3PP3/8/PPP2PPP/RNBQKB1R w KQkq - 0 5",
+          "type": "auto",
+          "move": "e5c4",
+          "san": "Nc4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kbnr/ppp3pp/3p1q2/5p2/2NPP3/8/PPP2PPP/RNBQKB1R b KQkq - 1 5",
+          "type": "student",
+          "move": "f5e4",
+          "san": "fxe4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kbnr/ppp3pp/3p1q2/8/2NPp3/8/PPP2PPP/RNBQKB1R w KQkq - 0 6",
+          "type": "auto",
+          "move": "c4e3",
+          "san": "Ne3",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Behting Variation",
+      "description": "ECO C40 – Latvian Gambit: Behting Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "auto",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "type": "student",
+          "move": "f7f5",
+          "san": "f5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp2pp/8/4pp2/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+          "type": "auto",
+          "move": "f1c4",
+          "san": "Bc4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp2pp/8/4pp2/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 1 3",
+          "type": "student",
+          "move": "f5e4",
+          "san": "fxe4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp2pp/8/4p3/2B1p3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4",
+          "type": "auto",
+          "move": "f3e5",
+          "san": "Nxe5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp2pp/8/4N3/2B1p3/8/PPPP1PPP/RNBQK2R b KQkq - 0 4",
+          "type": "student",
+          "move": "d8g5",
+          "san": "Qg5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kbnr/pppp2pp/8/4N1q1/2B1p3/8/PPPP1PPP/RNBQK2R w KQkq - 1 5",
+          "type": "auto",
+          "move": "e5f7",
+          "san": "Nf7",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kbnr/pppp1Npp/8/6q1/2B1p3/8/PPPP1PPP/RNBQK2R b KQkq - 2 5",
+          "type": "student",
+          "move": "g5g2",
+          "san": "Qxg2",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kbnr/pppp1Npp/8/8/2B1p3/8/PPPP1PqP/RNBQK2R w KQkq - 0 6",
+          "type": "auto",
+          "move": "h1f1",
+          "san": "Rf1",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kbnr/pppp1Npp/8/8/2B1p3/8/PPPP1PqP/RNBQKR2 b Qkq - 1 6",
+          "type": "student",
+          "move": "d7d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kbnr/ppp2Npp/8/3p4/2B1p3/8/PPPP1PqP/RNBQKR2 w Qkq - 0 7",
+          "type": "auto",
+          "move": "f7h8",
+          "san": "Nxh8",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kbnN/ppp3pp/8/3p4/2B1p3/8/PPPP1PqP/RNBQKR2 b Qq - 0 7",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Corkscrew Countergambit",
+      "description": "ECO C40 – Latvian Gambit: Corkscrew Countergambit",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "auto",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "type": "student",
+          "move": "f7f5",
+          "san": "f5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp2pp/8/4pp2/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+          "type": "auto",
+          "move": "f1c4",
+          "san": "Bc4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp2pp/8/4pp2/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 1 3",
+          "type": "student",
+          "move": "f5e4",
+          "san": "fxe4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp2pp/8/4p3/2B1p3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4",
+          "type": "auto",
+          "move": "f3e5",
+          "san": "Nxe5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp2pp/8/4N3/2B1p3/8/PPPP1PPP/RNBQK2R b KQkq - 0 4",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

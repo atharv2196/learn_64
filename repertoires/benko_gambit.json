@@ -1,0 +1,711 @@
+{
+  "id": "benko_gambit",
+  "opening": "Benko Gambit",
+  "category": "Gambit",
+  "description": "Benko Gambit – 12 variation(s). Includes: Reversed Brooklyn Defense, Brooklyn Benko Gambit, Benko Gambit, Benko Gambit Accepted…",
+  "side": "black",
+  "lines": [
+    {
+      "line_name": "Reversed Brooklyn Defense, Brooklyn Benko Gambit",
+      "description": "ECO A00 – Hungarian Opening: Reversed Brooklyn Defense, Brooklyn Benko Gambit",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "g2g3",
+          "san": "g3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/6P1/PPPPPP1P/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/8/6P1/PPPPPP1P/RNBQKBNR w KQkq - 0 2",
+          "type": "auto",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/8/5NP1/PPPPPP1P/RNBQKB1R b KQkq - 1 2",
+          "type": "student",
+          "move": "e5e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/8/4p3/5NP1/PPPPPP1P/RNBQKB1R w KQkq - 0 3",
+          "type": "auto",
+          "move": "f3g1",
+          "san": "Ng1",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/8/4p3/6P1/PPPPPP1P/RNBQKBNR b KQkq - 1 3",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppp1ppp/5n2/8/4p3/6P1/PPPPPP1P/RNBQKBNR w KQkq - 2 4",
+          "type": "auto",
+          "move": "b2b4",
+          "san": "b4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Benko Gambit",
+      "description": "ECO A57 – Benko Gambit",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+          "type": "auto",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "c7c5",
+          "san": "c5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp1ppppp/5n2/2p5/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+          "type": "auto",
+          "move": "d4d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp1ppppp/5n2/2pP4/2P5/8/PP2PPPP/RNBQKBNR b KQkq - 0 3",
+          "type": "student",
+          "move": "b7b5",
+          "san": "b5",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Benko Gambit Accepted",
+      "description": "ECO A57 – Benko Gambit Accepted",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+          "type": "auto",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "c7c5",
+          "san": "c5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp1ppppp/5n2/2p5/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+          "type": "auto",
+          "move": "d4d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp1ppppp/5n2/2pP4/2P5/8/PP2PPPP/RNBQKBNR b KQkq - 0 3",
+          "type": "student",
+          "move": "b7b5",
+          "san": "b5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/p2ppppp/5n2/1ppP4/2P5/8/PP2PPPP/RNBQKBNR w KQkq - 0 4",
+          "type": "auto",
+          "move": "c4b5",
+          "san": "cxb5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/p2ppppp/5n2/1PpP4/8/8/PP2PPPP/RNBQKBNR b KQkq - 0 4",
+          "type": "student",
+          "move": "a7a6",
+          "san": "a6",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Dlugy Variation",
+      "description": "ECO A57 – Benko Gambit Accepted: Dlugy Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+          "type": "auto",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "c7c5",
+          "san": "c5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp1ppppp/5n2/2p5/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+          "type": "auto",
+          "move": "d4d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp1ppppp/5n2/2pP4/2P5/8/PP2PPPP/RNBQKBNR b KQkq - 0 3",
+          "type": "student",
+          "move": "b7b5",
+          "san": "b5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/p2ppppp/5n2/1ppP4/2P5/8/PP2PPPP/RNBQKBNR w KQkq - 0 4",
+          "type": "auto",
+          "move": "c4b5",
+          "san": "cxb5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/p2ppppp/5n2/1PpP4/8/8/PP2PPPP/RNBQKBNR b KQkq - 0 4",
+          "type": "student",
+          "move": "a7a6",
+          "san": "a6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/3ppppp/p4n2/1PpP4/8/8/PP2PPPP/RNBQKBNR w KQkq - 0 5",
+          "type": "auto",
+          "move": "f2f3",
+          "san": "f3",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Modern Variation",
+      "description": "ECO A57 – Benko Gambit Accepted: Modern Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+          "type": "auto",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "c7c5",
+          "san": "c5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp1ppppp/5n2/2p5/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+          "type": "auto",
+          "move": "d4d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp1ppppp/5n2/2pP4/2P5/8/PP2PPPP/RNBQKBNR b KQkq - 0 3",
+          "type": "student",
+          "move": "b7b5",
+          "san": "b5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/p2ppppp/5n2/1ppP4/2P5/8/PP2PPPP/RNBQKBNR w KQkq - 0 4",
+          "type": "auto",
+          "move": "c4b5",
+          "san": "cxb5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/p2ppppp/5n2/1PpP4/8/8/PP2PPPP/RNBQKBNR b KQkq - 0 4",
+          "type": "student",
+          "move": "a7a6",
+          "san": "a6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/3ppppp/p4n2/1PpP4/8/8/PP2PPPP/RNBQKBNR w KQkq - 0 5",
+          "type": "auto",
+          "move": "e2e3",
+          "san": "e3",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Pawn Return Variation",
+      "description": "ECO A57 – Benko Gambit Accepted: Pawn Return Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+          "type": "auto",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "c7c5",
+          "san": "c5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp1ppppp/5n2/2p5/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+          "type": "auto",
+          "move": "d4d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp1ppppp/5n2/2pP4/2P5/8/PP2PPPP/RNBQKBNR b KQkq - 0 3",
+          "type": "student",
+          "move": "b7b5",
+          "san": "b5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/p2ppppp/5n2/1ppP4/2P5/8/PP2PPPP/RNBQKBNR w KQkq - 0 4",
+          "type": "auto",
+          "move": "c4b5",
+          "san": "cxb5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/p2ppppp/5n2/1PpP4/8/8/PP2PPPP/RNBQKBNR b KQkq - 0 4",
+          "type": "student",
+          "move": "a7a6",
+          "san": "a6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/3ppppp/p4n2/1PpP4/8/8/PP2PPPP/RNBQKBNR w KQkq - 0 5",
+          "type": "auto",
+          "move": "b5b6",
+          "san": "b6",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Bishop Attack",
+      "description": "ECO A57 – Benko Gambit Declined: Bishop Attack",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+          "type": "auto",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "c7c5",
+          "san": "c5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp1ppppp/5n2/2p5/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+          "type": "auto",
+          "move": "d4d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp1ppppp/5n2/2pP4/2P5/8/PP2PPPP/RNBQKBNR b KQkq - 0 3",
+          "type": "student",
+          "move": "b7b5",
+          "san": "b5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/p2ppppp/5n2/1ppP4/2P5/8/PP2PPPP/RNBQKBNR w KQkq - 0 4",
+          "type": "auto",
+          "move": "c1g5",
+          "san": "Bg5",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Hjørring Countergambit",
+      "description": "ECO A57 – Benko Gambit Declined: Hjørring Countergambit",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+          "type": "auto",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "c7c5",
+          "san": "c5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp1ppppp/5n2/2p5/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+          "type": "auto",
+          "move": "d4d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp1ppppp/5n2/2pP4/2P5/8/PP2PPPP/RNBQKBNR b KQkq - 0 3",
+          "type": "student",
+          "move": "b7b5",
+          "san": "b5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/p2ppppp/5n2/1ppP4/2P5/8/PP2PPPP/RNBQKBNR w KQkq - 0 4",
+          "type": "auto",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Main Line",
+      "description": "ECO A57 – Benko Gambit Declined: Main Line",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+          "type": "auto",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "c7c5",
+          "san": "c5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp1ppppp/5n2/2p5/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+          "type": "auto",
+          "move": "d4d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp1ppppp/5n2/2pP4/2P5/8/PP2PPPP/RNBQKBNR b KQkq - 0 3",
+          "type": "student",
+          "move": "b7b5",
+          "san": "b5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/p2ppppp/5n2/1ppP4/2P5/8/PP2PPPP/RNBQKBNR w KQkq - 0 4",
+          "type": "auto",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Pseudo-Sämisch",
+      "description": "ECO A57 – Benko Gambit Declined: Pseudo-Sämisch",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+          "type": "auto",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "c7c5",
+          "san": "c5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp1ppppp/5n2/2p5/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+          "type": "auto",
+          "move": "d4d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp1ppppp/5n2/2pP4/2P5/8/PP2PPPP/RNBQKBNR b KQkq - 0 3",
+          "type": "student",
+          "move": "b7b5",
+          "san": "b5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/p2ppppp/5n2/1ppP4/2P5/8/PP2PPPP/RNBQKBNR w KQkq - 0 4",
+          "type": "auto",
+          "move": "f2f3",
+          "san": "f3",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Quiet Line",
+      "description": "ECO A57 – Benko Gambit Declined: Quiet Line",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+          "type": "auto",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "c7c5",
+          "san": "c5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp1ppppp/5n2/2p5/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+          "type": "auto",
+          "move": "d4d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp1ppppp/5n2/2pP4/2P5/8/PP2PPPP/RNBQKBNR b KQkq - 0 3",
+          "type": "student",
+          "move": "b7b5",
+          "san": "b5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/p2ppppp/5n2/1ppP4/2P5/8/PP2PPPP/RNBQKBNR w KQkq - 0 4",
+          "type": "auto",
+          "move": "b1d2",
+          "san": "Nd2",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Sosonko Variation",
+      "description": "ECO A57 – Benko Gambit Declined: Sosonko Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+          "type": "auto",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "c7c5",
+          "san": "c5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp1ppppp/5n2/2p5/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+          "type": "auto",
+          "move": "d4d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp1ppppp/5n2/2pP4/2P5/8/PP2PPPP/RNBQKBNR b KQkq - 0 3",
+          "type": "student",
+          "move": "b7b5",
+          "san": "b5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/p2ppppp/5n2/1ppP4/2P5/8/PP2PPPP/RNBQKBNR w KQkq - 0 4",
+          "type": "auto",
+          "move": "a2a4",
+          "san": "a4",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

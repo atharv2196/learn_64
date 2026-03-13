@@ -1,0 +1,704 @@
+{
+  "id": "pirc_defense",
+  "opening": "Pirc Defense",
+  "category": "Opening",
+  "description": "Pirc Defense – 12 variation(s). Includes: Pirc Defense, Roscher Gambit, Pirc Defense…",
+  "side": "black",
+  "lines": [
+    {
+      "line_name": "Pirc Defense",
+      "description": "ECO B00 – Pirc Defense",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "d7d6",
+          "san": "d6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp1pppp/3p4/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp1pppp/3p4/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Roscher Gambit",
+      "description": "ECO B00 – Pirc Defense: Roscher Gambit",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "d7d6",
+          "san": "d6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp1pppp/3p4/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp1pppp/3p4/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/3p1n2/8/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 1 3",
+          "type": "auto",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Pirc Defense",
+      "description": "ECO B07 – Pirc Defense",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "d7d6",
+          "san": "d6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp1pppp/3p4/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp1pppp/3p4/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/3p1n2/8/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 1 3",
+          "type": "auto",
+          "move": "b1c3",
+          "san": "Nc3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/3p1n2/8/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq - 2 3",
+          "type": "student",
+          "move": "g7g6",
+          "san": "g6",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "150 Attack",
+      "description": "ECO B07 – Pirc Defense: 150 Attack",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "d7d6",
+          "san": "d6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp1pppp/3p4/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp1pppp/3p4/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/3p1n2/8/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 1 3",
+          "type": "auto",
+          "move": "b1c3",
+          "san": "Nc3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/3p1n2/8/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq - 2 3",
+          "type": "student",
+          "move": "g7g6",
+          "san": "g6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pp1p/3p1np1/8/3PP3/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 4",
+          "type": "auto",
+          "move": "c1e3",
+          "san": "Be3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pp1p/3p1np1/8/3PP3/2N1B3/PPP2PPP/R2QKBNR b KQkq - 1 4",
+          "type": "student",
+          "move": "c7c6",
+          "san": "c6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp2pp1p/2pp1np1/8/3PP3/2N1B3/PPP2PPP/R2QKBNR w KQkq - 0 5",
+          "type": "auto",
+          "move": "d1d2",
+          "san": "Qd2",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "150 Attack, Inner Doll Defense",
+      "description": "ECO B07 – Pirc Defense: 150 Attack, Inner Doll Defense",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "d7d6",
+          "san": "d6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp1pppp/3p4/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp1pppp/3p4/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/3p1n2/8/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 1 3",
+          "type": "auto",
+          "move": "b1c3",
+          "san": "Nc3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/3p1n2/8/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq - 2 3",
+          "type": "student",
+          "move": "g7g6",
+          "san": "g6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pp1p/3p1np1/8/3PP3/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 4",
+          "type": "auto",
+          "move": "c1e3",
+          "san": "Be3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pp1p/3p1np1/8/3PP3/2N1B3/PPP2PPP/R2QKBNR b KQkq - 1 4",
+          "type": "student",
+          "move": "c7c6",
+          "san": "c6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp2pp1p/2pp1np1/8/3PP3/2N1B3/PPP2PPP/R2QKBNR w KQkq - 0 5",
+          "type": "auto",
+          "move": "d1d2",
+          "san": "Qd2",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp2pp1p/2pp1np1/8/3PP3/2N1B3/PPPQ1PPP/R3KBNR b KQkq - 1 5",
+          "type": "student",
+          "move": "c8g4",
+          "san": "Bg4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "150 Attack, Sveshnikov-Jansa Attack",
+      "description": "ECO B07 – Pirc Defense: 150 Attack, Sveshnikov-Jansa Attack",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "d7d6",
+          "san": "d6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp1pppp/3p4/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp1pppp/3p4/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/3p1n2/8/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 1 3",
+          "type": "auto",
+          "move": "b1c3",
+          "san": "Nc3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/3p1n2/8/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq - 2 3",
+          "type": "student",
+          "move": "g7g6",
+          "san": "g6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pp1p/3p1np1/8/3PP3/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 4",
+          "type": "auto",
+          "move": "c1e3",
+          "san": "Be3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pp1p/3p1np1/8/3PP3/2N1B3/PPP2PPP/R2QKBNR b KQkq - 1 4",
+          "type": "student",
+          "move": "c7c6",
+          "san": "c6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp2pp1p/2pp1np1/8/3PP3/2N1B3/PPP2PPP/R2QKBNR w KQkq - 0 5",
+          "type": "auto",
+          "move": "h2h3",
+          "san": "h3",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Bayonet Attack",
+      "description": "ECO B07 – Pirc Defense: Bayonet Attack",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "d7d6",
+          "san": "d6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp1pppp/3p4/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp1pppp/3p4/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/3p1n2/8/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 1 3",
+          "type": "auto",
+          "move": "b1c3",
+          "san": "Nc3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/3p1n2/8/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq - 2 3",
+          "type": "student",
+          "move": "g7g6",
+          "san": "g6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pp1p/3p1np1/8/3PP3/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 4",
+          "type": "auto",
+          "move": "f1e2",
+          "san": "Be2",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pp1p/3p1np1/8/3PP3/2N5/PPP1BPPP/R1BQK1NR b KQkq - 1 4",
+          "type": "student",
+          "move": "f8g7",
+          "san": "Bg7",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk2r/ppp1ppbp/3p1np1/8/3PP3/2N5/PPP1BPPP/R1BQK1NR w KQkq - 2 5",
+          "type": "auto",
+          "move": "h2h4",
+          "san": "h4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Byrne Variation",
+      "description": "ECO B07 – Pirc Defense: Byrne Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "d7d6",
+          "san": "d6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp1pppp/3p4/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp1pppp/3p4/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/3p1n2/8/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 1 3",
+          "type": "auto",
+          "move": "b1c3",
+          "san": "Nc3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/3p1n2/8/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq - 2 3",
+          "type": "student",
+          "move": "g7g6",
+          "san": "g6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pp1p/3p1np1/8/3PP3/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 4",
+          "type": "auto",
+          "move": "c1g5",
+          "san": "Bg5",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Chinese Variation",
+      "description": "ECO B07 – Pirc Defense: Chinese Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "d7d6",
+          "san": "d6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp1pppp/3p4/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp1pppp/3p4/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/3p1n2/8/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 1 3",
+          "type": "auto",
+          "move": "b1c3",
+          "san": "Nc3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/3p1n2/8/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq - 2 3",
+          "type": "student",
+          "move": "g7g6",
+          "san": "g6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pp1p/3p1np1/8/3PP3/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 4",
+          "type": "auto",
+          "move": "f1e2",
+          "san": "Be2",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pp1p/3p1np1/8/3PP3/2N5/PPP1BPPP/R1BQK1NR b KQkq - 1 4",
+          "type": "student",
+          "move": "f8g7",
+          "san": "Bg7",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk2r/ppp1ppbp/3p1np1/8/3PP3/2N5/PPP1BPPP/R1BQK1NR w KQkq - 2 5",
+          "type": "auto",
+          "move": "g2g4",
+          "san": "g4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Kholmov System",
+      "description": "ECO B07 – Pirc Defense: Kholmov System",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "d7d6",
+          "san": "d6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp1pppp/3p4/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp1pppp/3p4/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/3p1n2/8/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 1 3",
+          "type": "auto",
+          "move": "b1c3",
+          "san": "Nc3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/3p1n2/8/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq - 2 3",
+          "type": "student",
+          "move": "g7g6",
+          "san": "g6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pp1p/3p1np1/8/3PP3/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 4",
+          "type": "auto",
+          "move": "f1c4",
+          "san": "Bc4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Sveshnikov System",
+      "description": "ECO B07 – Pirc Defense: Sveshnikov System",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "d7d6",
+          "san": "d6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp1pppp/3p4/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp1pppp/3p4/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/3p1n2/8/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 1 3",
+          "type": "auto",
+          "move": "b1c3",
+          "san": "Nc3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/3p1n2/8/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq - 2 3",
+          "type": "student",
+          "move": "g7g6",
+          "san": "g6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pp1p/3p1np1/8/3PP3/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 4",
+          "type": "auto",
+          "move": "g2g3",
+          "san": "g3",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Classical Variation",
+      "description": "ECO B08 – Pirc Defense: Classical Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "d7d6",
+          "san": "d6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp1pppp/3p4/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp1pppp/3p4/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/3p1n2/8/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 1 3",
+          "type": "auto",
+          "move": "b1c3",
+          "san": "Nc3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/3p1n2/8/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq - 2 3",
+          "type": "student",
+          "move": "g7g6",
+          "san": "g6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pp1p/3p1np1/8/3PP3/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 4",
+          "type": "auto",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

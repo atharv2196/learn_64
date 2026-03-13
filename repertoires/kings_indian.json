@@ -1,0 +1,907 @@
+{
+  "id": "kings_indian",
+  "opening": "King's Indian Defense",
+  "category": "Opening",
+  "description": "King's Indian Defense – 12 variation(s). Includes: Fianchetto Variation, Fianchetto Variation, Immediate Fianchetto, Normal Variation, King's Knight Variation…",
+  "side": "black",
+  "lines": [
+    {
+      "line_name": "Fianchetto Variation",
+      "description": "ECO E60 – King's Indian Defense: Fianchetto Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+          "type": "auto",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "g7g6",
+          "san": "g6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppp1p/5np1/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+          "type": "auto",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppp1p/5np1/8/2PP4/5N2/PP2PPPP/RNBQKB1R b KQkq - 1 3",
+          "type": "student",
+          "move": "f8g7",
+          "san": "Bg7",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk2r/ppppppbp/5np1/8/2PP4/5N2/PP2PPPP/RNBQKB1R w KQkq - 2 4",
+          "type": "auto",
+          "move": "g2g3",
+          "san": "g3",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Fianchetto Variation, Immediate Fianchetto",
+      "description": "ECO E60 – King's Indian Defense: Fianchetto Variation, Immediate Fianchetto",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+          "type": "auto",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "g7g6",
+          "san": "g6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppp1p/5np1/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+          "type": "auto",
+          "move": "g2g3",
+          "san": "g3",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Normal Variation, King's Knight Variation",
+      "description": "ECO E60 – King's Indian Defense: Normal Variation, King's Knight Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+          "type": "auto",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 2 2",
+          "type": "student",
+          "move": "g7g6",
+          "san": "g6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppp1p/5np1/8/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 0 3",
+          "type": "auto",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Santasiere Variation",
+      "description": "ECO E60 – King's Indian Defense: Santasiere Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+          "type": "auto",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "g7g6",
+          "san": "g6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppp1p/5np1/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+          "type": "auto",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppp1p/5np1/8/2PP4/5N2/PP2PPPP/RNBQKB1R b KQkq - 1 3",
+          "type": "student",
+          "move": "f8g7",
+          "san": "Bg7",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk2r/ppppppbp/5np1/8/2PP4/5N2/PP2PPPP/RNBQKB1R w KQkq - 2 4",
+          "type": "auto",
+          "move": "b2b4",
+          "san": "b4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Semi-Classical Variation, Benoni Variation",
+      "description": "ECO E60 – King's Indian Defense: Semi-Classical Variation, Benoni Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+          "type": "auto",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "g7g6",
+          "san": "g6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppp1p/5np1/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+          "type": "auto",
+          "move": "b1c3",
+          "san": "Nc3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppp1p/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3",
+          "type": "student",
+          "move": "f8g7",
+          "san": "Bg7",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk2r/ppppppbp/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+          "type": "auto",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk2r/ppppppbp/5np1/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 3 4",
+          "type": "student",
+          "move": "e8g8",
+          "san": "O-O",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbq1rk1/ppppppbp/5np1/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R w KQ - 4 5",
+          "type": "auto",
+          "move": "e2e3",
+          "san": "e3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbq1rk1/ppppppbp/5np1/8/2PP4/2N1PN2/PP3PPP/R1BQKB1R b KQ - 0 5",
+          "type": "student",
+          "move": "d7d6",
+          "san": "d6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PP4/2N1PN2/PP3PPP/R1BQKB1R w KQ - 0 6",
+          "type": "auto",
+          "move": "f1e2",
+          "san": "Be2",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PP4/2N1PN2/PP2BPPP/R1BQK2R b KQ - 1 6",
+          "type": "student",
+          "move": "c7c6",
+          "san": "c6",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Semi-Classical Variation, Hollywood Variation",
+      "description": "ECO E60 – King's Indian Defense: Semi-Classical Variation, Hollywood Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+          "type": "auto",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 2 2",
+          "type": "student",
+          "move": "g7g6",
+          "san": "g6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppp1p/5np1/8/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 0 3",
+          "type": "auto",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppp1p/5np1/8/2PP4/5N2/PP2PPPP/RNBQKB1R b KQkq - 0 3",
+          "type": "student",
+          "move": "f8g7",
+          "san": "Bg7",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk2r/ppppppbp/5np1/8/2PP4/5N2/PP2PPPP/RNBQKB1R w KQkq - 1 4",
+          "type": "auto",
+          "move": "b1c3",
+          "san": "Nc3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk2r/ppppppbp/5np1/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 2 4",
+          "type": "student",
+          "move": "e8g8",
+          "san": "O-O",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbq1rk1/ppppppbp/5np1/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R w KQ - 3 5",
+          "type": "auto",
+          "move": "e2e3",
+          "san": "e3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbq1rk1/ppppppbp/5np1/8/2PP4/2N1PN2/PP3PPP/R1BQKB1R b KQ - 0 5",
+          "type": "student",
+          "move": "d7d6",
+          "san": "d6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PP4/2N1PN2/PP3PPP/R1BQKB1R w KQ - 0 6",
+          "type": "auto",
+          "move": "f1e2",
+          "san": "Be2",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PP4/2N1PN2/PP2BPPP/R1BQK2R b KQ - 1 6",
+          "type": "student",
+          "move": "b8c6",
+          "san": "Nc6",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "King's Indian Defense",
+      "description": "ECO E61 – King's Indian Defense",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+          "type": "auto",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "g7g6",
+          "san": "g6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppp1p/5np1/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+          "type": "auto",
+          "move": "b1c3",
+          "san": "Nc3",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Fianchetto Variation, Benjamin Defense",
+      "description": "ECO E61 – King's Indian Defense: Fianchetto Variation, Benjamin Defense",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+          "type": "auto",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "g7g6",
+          "san": "g6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppp1p/5np1/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+          "type": "auto",
+          "move": "b1c3",
+          "san": "Nc3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppp1p/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3",
+          "type": "student",
+          "move": "f8g7",
+          "san": "Bg7",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk2r/ppppppbp/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+          "type": "auto",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk2r/ppppppbp/5np1/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 3 4",
+          "type": "student",
+          "move": "d7d6",
+          "san": "d6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk2r/ppp1ppbp/3p1np1/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 0 5",
+          "type": "auto",
+          "move": "g2g3",
+          "san": "g3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk2r/ppp1ppbp/3p1np1/8/2PP4/2N2NP1/PP2PP1P/R1BQKB1R b KQkq - 0 5",
+          "type": "student",
+          "move": "e8g8",
+          "san": "O-O",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PP4/2N2NP1/PP2PP1P/R1BQKB1R w KQ - 1 6",
+          "type": "auto",
+          "move": "f1g2",
+          "san": "Bg2",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PP4/2N2NP1/PP2PPBP/R1BQK2R b KQ - 2 6",
+          "type": "student",
+          "move": "c7c6",
+          "san": "c6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbq1rk1/pp2ppbp/2pp1np1/8/2PP4/2N2NP1/PP2PPBP/R1BQK2R w KQ - 0 7",
+          "type": "auto",
+          "move": "e1g1",
+          "san": "O-O",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbq1rk1/pp2ppbp/2pp1np1/8/2PP4/2N2NP1/PP2PPBP/R1BQ1RK1 b - - 1 7",
+          "type": "student",
+          "move": "d8b6",
+          "san": "Qb6",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Semi-Classical Variation",
+      "description": "ECO E61 – King's Indian Defense: Semi-Classical Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+          "type": "auto",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "g7g6",
+          "san": "g6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppp1p/5np1/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+          "type": "auto",
+          "move": "b1c3",
+          "san": "Nc3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppp1p/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3",
+          "type": "student",
+          "move": "f8g7",
+          "san": "Bg7",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk2r/ppppppbp/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+          "type": "auto",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk2r/ppppppbp/5np1/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 3 4",
+          "type": "student",
+          "move": "e8g8",
+          "san": "O-O",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbq1rk1/ppppppbp/5np1/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R w KQ - 4 5",
+          "type": "auto",
+          "move": "e2e3",
+          "san": "e3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbq1rk1/ppppppbp/5np1/8/2PP4/2N1PN2/PP3PPP/R1BQKB1R b KQ - 0 5",
+          "type": "student",
+          "move": "d7d6",
+          "san": "d6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PP4/2N1PN2/PP3PPP/R1BQKB1R w KQ - 0 6",
+          "type": "auto",
+          "move": "f1e2",
+          "san": "Be2",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Semi-Classical Variation, Exchange Variation",
+      "description": "ECO E61 – King's Indian Defense: Semi-Classical Variation, Exchange Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+          "type": "auto",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "g7g6",
+          "san": "g6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppp1p/5np1/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+          "type": "auto",
+          "move": "b1c3",
+          "san": "Nc3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppp1p/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3",
+          "type": "student",
+          "move": "f8g7",
+          "san": "Bg7",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk2r/ppppppbp/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+          "type": "auto",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk2r/ppppppbp/5np1/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 3 4",
+          "type": "student",
+          "move": "e8g8",
+          "san": "O-O",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbq1rk1/ppppppbp/5np1/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R w KQ - 4 5",
+          "type": "auto",
+          "move": "e2e3",
+          "san": "e3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbq1rk1/ppppppbp/5np1/8/2PP4/2N1PN2/PP3PPP/R1BQKB1R b KQ - 0 5",
+          "type": "student",
+          "move": "d7d6",
+          "san": "d6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PP4/2N1PN2/PP3PPP/R1BQKB1R w KQ - 0 6",
+          "type": "auto",
+          "move": "f1e2",
+          "san": "Be2",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PP4/2N1PN2/PP2BPPP/R1BQK2R b KQ - 1 6",
+          "type": "student",
+          "move": "b8d7",
+          "san": "Nbd7",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bq1rk1/pppnppbp/3p1np1/8/2PP4/2N1PN2/PP2BPPP/R1BQK2R w KQ - 2 7",
+          "type": "auto",
+          "move": "e1g1",
+          "san": "O-O",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bq1rk1/pppnppbp/3p1np1/8/2PP4/2N1PN2/PP2BPPP/R1BQ1RK1 b - - 3 7",
+          "type": "student",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bq1rk1/pppn1pbp/3p1np1/4p3/2PP4/2N1PN2/PP2BPPP/R1BQ1RK1 w - - 0 8",
+          "type": "auto",
+          "move": "d4e5",
+          "san": "dxe5",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bq1rk1/pppn1pbp/3p1np1/4P3/2P5/2N1PN2/PP2BPPP/R1BQ1RK1 b - - 0 8",
+          "type": "student",
+          "move": "d6e5",
+          "san": "dxe5",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Semi-Classical Variation, Queenside Storm Line",
+      "description": "ECO E61 – King's Indian Defense: Semi-Classical Variation, Queenside Storm Line",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+          "type": "auto",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "g7g6",
+          "san": "g6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppp1p/5np1/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+          "type": "auto",
+          "move": "b1c3",
+          "san": "Nc3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppp1p/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3",
+          "type": "student",
+          "move": "f8g7",
+          "san": "Bg7",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk2r/ppppppbp/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+          "type": "auto",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk2r/ppppppbp/5np1/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 3 4",
+          "type": "student",
+          "move": "e8g8",
+          "san": "O-O",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbq1rk1/ppppppbp/5np1/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R w KQ - 4 5",
+          "type": "auto",
+          "move": "e2e3",
+          "san": "e3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbq1rk1/ppppppbp/5np1/8/2PP4/2N1PN2/PP3PPP/R1BQKB1R b KQ - 0 5",
+          "type": "student",
+          "move": "d7d6",
+          "san": "d6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PP4/2N1PN2/PP3PPP/R1BQKB1R w KQ - 0 6",
+          "type": "auto",
+          "move": "f1e2",
+          "san": "Be2",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PP4/2N1PN2/PP2BPPP/R1BQK2R b KQ - 1 6",
+          "type": "student",
+          "move": "b8d7",
+          "san": "Nbd7",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bq1rk1/pppnppbp/3p1np1/8/2PP4/2N1PN2/PP2BPPP/R1BQK2R w KQ - 2 7",
+          "type": "auto",
+          "move": "e1g1",
+          "san": "O-O",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bq1rk1/pppnppbp/3p1np1/8/2PP4/2N1PN2/PP2BPPP/R1BQ1RK1 b - - 3 7",
+          "type": "student",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bq1rk1/pppn1pbp/3p1np1/4p3/2PP4/2N1PN2/PP2BPPP/R1BQ1RK1 w - - 0 8",
+          "type": "auto",
+          "move": "b2b4",
+          "san": "b4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Smyslov Variation",
+      "description": "ECO E61 – King's Indian Defense: Smyslov Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+          "type": "auto",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "g7g6",
+          "san": "g6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppp1p/5np1/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+          "type": "auto",
+          "move": "b1c3",
+          "san": "Nc3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppp1p/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3",
+          "type": "student",
+          "move": "f8g7",
+          "san": "Bg7",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk2r/ppppppbp/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+          "type": "auto",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk2r/ppppppbp/5np1/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 3 4",
+          "type": "student",
+          "move": "d7d6",
+          "san": "d6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk2r/ppp1ppbp/3p1np1/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 0 5",
+          "type": "auto",
+          "move": "c1g5",
+          "san": "Bg5",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-950 text-gray-100 antialiased;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  button {
+    min-height: 44px;
+    touch-action: manipulation;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-gray-900;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gray-700 rounded-full;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-600;
+  }
+}
+
+@layer components {
+  .spinner {
+    @apply inline-block w-6 h-6 border-2 border-emerald-500 border-t-transparent rounded-full animate-spin;
+  }
+
+  .card {
+    @apply bg-gray-800/50 backdrop-blur-sm border border-gray-700/50 rounded-2xl;
+  }
+
+  .card-hover {
+    @apply card hover:border-emerald-500/30 hover:shadow-lg hover:shadow-emerald-900/10 transition-all duration-300;
+  }
+
+  .btn-primary {
+    @apply px-5 py-2.5 min-h-[44px] bg-emerald-600 text-white font-semibold rounded-xl hover:bg-emerald-500 transition-all duration-200 shadow-lg shadow-emerald-900/20;
+  }
+
+  .btn-secondary {
+    @apply px-5 py-2.5 min-h-[44px] bg-gray-800 text-gray-300 font-medium rounded-xl hover:bg-gray-700 border border-gray-700 transition-all duration-200;
+  }
+
+  .input-field {
+    @apply w-full rounded-xl border border-gray-600 bg-gray-900/50 px-4 py-3 text-sm text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition;
+  }
+}

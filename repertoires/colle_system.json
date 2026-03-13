@@ -1,0 +1,532 @@
+{
+  "id": "colle_system",
+  "opening": "Colle System",
+  "category": "Opening",
+  "description": "Colle System – 9 variation(s). Includes: Rhamphorhynchus Variation, Pterodactyl Variation, Siroccopteryx Variation…",
+  "side": "white",
+  "lines": [
+    {
+      "line_name": "Rhamphorhynchus Variation",
+      "description": "ECO A04 – Colle System: Rhamphorhynchus Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 1 1",
+          "type": "auto",
+          "move": "c7c5",
+          "san": "c5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pp1ppppp/8/2p5/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 0 2",
+          "type": "student",
+          "move": "e2e3",
+          "san": "e3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pp1ppppp/8/2p5/8/4PN2/PPPP1PPP/RNBQKB1R b KQkq - 0 2",
+          "type": "auto",
+          "move": "g7g6",
+          "san": "g6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pp1ppp1p/6p1/2p5/8/4PN2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pp1ppp1p/6p1/2p5/3P4/4PN2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+          "type": "auto",
+          "move": "f8g7",
+          "san": "Bg7",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/pp1pppbp/6p1/2p5/3P4/4PN2/PPP2PPP/RNBQKB1R w KQkq - 1 4",
+          "type": "student",
+          "move": "d4c5",
+          "san": "dxc5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/pp1pppbp/6p1/2P5/8/4PN2/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+          "type": "auto",
+          "move": "d8a5",
+          "san": "Qa5+",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Pterodactyl Variation",
+      "description": "ECO A40 – Colle System: Pterodactyl Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "g7g6",
+          "san": "g6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppp1p/6p1/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppp1p/6p1/8/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 1 2",
+          "type": "auto",
+          "move": "f8g7",
+          "san": "Bg7",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/ppppppbp/6p1/8/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 2 3",
+          "type": "student",
+          "move": "e2e3",
+          "san": "e3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/ppppppbp/6p1/8/3P4/4PN2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+          "type": "auto",
+          "move": "c7c5",
+          "san": "c5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/pp1pppbp/6p1/2p5/3P4/4PN2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
+          "type": "student",
+          "move": "f1d3",
+          "san": "Bd3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/pp1pppbp/6p1/2p5/3P4/3BPN2/PPP2PPP/RNBQK2R b KQkq - 1 4",
+          "type": "auto",
+          "move": "d8a5",
+          "san": "Qa5+",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Siroccopteryx Variation",
+      "description": "ECO A40 – Colle System: Siroccopteryx Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "g7g6",
+          "san": "g6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppp1p/6p1/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppp1p/6p1/8/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 1 2",
+          "type": "auto",
+          "move": "f8g7",
+          "san": "Bg7",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/ppppppbp/6p1/8/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 2 3",
+          "type": "student",
+          "move": "e2e3",
+          "san": "e3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/ppppppbp/6p1/8/3P4/4PN2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+          "type": "auto",
+          "move": "c7c5",
+          "san": "c5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/pp1pppbp/6p1/2p5/3P4/4PN2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
+          "type": "student",
+          "move": "f1d3",
+          "san": "Bd3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/pp1pppbp/6p1/2p5/3P4/3BPN2/PPP2PPP/RNBQK2R b KQkq - 1 4",
+          "type": "auto",
+          "move": "c5d4",
+          "san": "cxd4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/pp1pppbp/6p1/8/3p4/3BPN2/PPP2PPP/RNBQK2R w KQkq - 0 5",
+          "type": "student",
+          "move": "f3d4",
+          "san": "Nxd4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/pp1pppbp/6p1/8/3N4/3BP3/PPP2PPP/RNBQK2R b KQkq - 0 5",
+          "type": "auto",
+          "move": "d8a5",
+          "san": "Qa5+",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Colle System, King's Indian Variation",
+      "description": "ECO A48 – Indian Defense: Colle System, King's Indian Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 2 2",
+          "type": "auto",
+          "move": "g7g6",
+          "san": "g6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppp1p/5np1/8/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 0 3",
+          "type": "student",
+          "move": "e2e3",
+          "san": "e3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppp1p/5np1/8/3P4/4PN2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+          "type": "auto",
+          "move": "f8g7",
+          "san": "Bg7",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk2r/ppppppbp/5np1/8/3P4/4PN2/PPP2PPP/RNBQKB1R w KQkq - 1 4",
+          "type": "student",
+          "move": "f1d3",
+          "san": "Bd3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk2r/ppppppbp/5np1/8/3P4/3BPN2/PPP2PPP/RNBQK2R b KQkq - 2 4",
+          "type": "auto",
+          "move": "d7d6",
+          "san": "d6",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Colle System",
+      "description": "ECO D04 – Queen's Pawn Game: Colle System",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "d7d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 1 2",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 2 3",
+          "type": "student",
+          "move": "e2e3",
+          "san": "e3",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Colle System, Anti-Colle",
+      "description": "ECO D04 – Queen's Pawn Game: Colle System, Anti-Colle",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "d7d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 1 2",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 2 3",
+          "type": "student",
+          "move": "e2e3",
+          "san": "e3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/3P4/4PN2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+          "type": "auto",
+          "move": "c8f5",
+          "san": "Bf5",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Colle System",
+      "description": "ECO D05 – Queen's Pawn Game: Colle System",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "d7d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 1 2",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 2 3",
+          "type": "student",
+          "move": "e2e3",
+          "san": "e3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/3P4/4PN2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+          "type": "auto",
+          "move": "e7e6",
+          "san": "e6",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Colle System",
+      "description": "ECO D05 – Queen's Pawn Game: Colle System",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "d7d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 1 2",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 2 3",
+          "type": "student",
+          "move": "e2e3",
+          "san": "e3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/3P4/4PN2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+          "type": "auto",
+          "move": "e7e6",
+          "san": "e6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/3P4/4PN2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
+          "type": "student",
+          "move": "f1d3",
+          "san": "Bd3",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Colle System, Traditional Colle",
+      "description": "ECO D05 – Queen's Pawn Game: Colle System, Traditional Colle",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 2 2",
+          "type": "auto",
+          "move": "e7e6",
+          "san": "e6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppp1ppp/4pn2/8/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 0 3",
+          "type": "student",
+          "move": "e2e3",
+          "san": "e3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppp1ppp/4pn2/8/3P4/4PN2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+          "type": "auto",
+          "move": "c7c5",
+          "san": "c5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp1p1ppp/4pn2/2p5/3P4/4PN2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
+          "type": "student",
+          "move": "f1d3",
+          "san": "Bd3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp1p1ppp/4pn2/2p5/3P4/3BPN2/PPP2PPP/RNBQK2R b KQkq - 1 4",
+          "type": "auto",
+          "move": "d7d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp3ppp/4pn2/2pp4/3P4/3BPN2/PPP2PPP/RNBQK2R w KQkq - 0 5",
+          "type": "student",
+          "move": "c2c3",
+          "san": "c3",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

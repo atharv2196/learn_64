@@ -1,0 +1,669 @@
+{
+  "id": "english_opening",
+  "opening": "English Opening",
+  "category": "Opening",
+  "description": "English Opening – 12 variation(s). Includes: Adorjan Defense, Anglo-Dutch Variation, Chabanon Gambit, Anglo-Dutch Variation, Ferenc Gambit…",
+  "side": "white",
+  "lines": [
+    {
+      "line_name": "Adorjan Defense",
+      "description": "ECO A10 – English Opening: Adorjan Defense",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "g7g6",
+          "san": "g6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppp1p/6p1/8/2P5/8/PP1PPPPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppp1p/6p1/8/2P1P3/8/PP1P1PPP/RNBQKBNR b KQkq - 0 2",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Anglo-Dutch Variation, Chabanon Gambit",
+      "description": "ECO A10 – English Opening: Anglo-Dutch Variation, Chabanon Gambit",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "f7f5",
+          "san": "f5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppppp1pp/8/5p2/2P5/8/PP1PPPPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppppp1pp/8/5p2/2P5/5N2/PP1PPPPP/RNBQKB1R b KQkq - 1 2",
+          "type": "auto",
+          "move": "d7d6",
+          "san": "d6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp1p1pp/3p4/5p2/2P5/5N2/PP1PPPPP/RNBQKB1R w KQkq - 0 3",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Anglo-Dutch Variation, Ferenc Gambit",
+      "description": "ECO A10 – English Opening: Anglo-Dutch Variation, Ferenc Gambit",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "f7f5",
+          "san": "f5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppppp1pp/8/5p2/2P5/8/PP1PPPPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "b1c3",
+          "san": "Nc3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppppp1pp/8/5p2/2P5/2N5/PP1PPPPP/R1BQKBNR b KQkq - 1 2",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppppp1pp/5n2/5p2/2P5/2N5/PP1PPPPP/R1BQKBNR w KQkq - 2 3",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "King's English Variation, Botvinnik System, Prickly Pawn Pass System",
+      "description": "ECO A10 – English Opening: King's English Variation, Botvinnik System, Prickly Pawn Pass System",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "g7g6",
+          "san": "g6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppp1p/6p1/8/2P5/8/PP1PPPPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "b1c3",
+          "san": "Nc3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppp1p/6p1/8/2P5/2N5/PP1PPPPP/R1BQKBNR b KQkq - 1 2",
+          "type": "auto",
+          "move": "f8g7",
+          "san": "Bg7",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/ppppppbp/6p1/8/2P5/2N5/PP1PPPPP/R1BQKBNR w KQkq - 2 3",
+          "type": "student",
+          "move": "g2g3",
+          "san": "g3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/ppppppbp/6p1/8/2P5/2N3P1/PP1PPP1P/R1BQKBNR b KQkq - 0 3",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk2r/ppppppbp/5np1/8/2P5/2N3P1/PP1PPP1P/R1BQKBNR w KQkq - 1 4",
+          "type": "student",
+          "move": "f1g2",
+          "san": "Bg2",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk2r/ppppppbp/5np1/8/2P5/2N3P1/PP1PPPBP/R1BQK1NR b KQkq - 2 4",
+          "type": "auto",
+          "move": "e8g8",
+          "san": "O-O",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbq1rk1/ppppppbp/5np1/8/2P5/2N3P1/PP1PPPBP/R1BQK1NR w KQ - 3 5",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbq1rk1/ppppppbp/5np1/8/2P1P3/2N3P1/PP1P1PBP/R1BQK1NR b KQ - 0 5",
+          "type": "auto",
+          "move": "d7d6",
+          "san": "d6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/2P1P3/2N3P1/PP1P1PBP/R1BQK1NR w KQ - 0 6",
+          "type": "student",
+          "move": "g1e2",
+          "san": "Nge2",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/2P1P3/2N3P1/PP1PNPBP/R1BQK2R b KQ - 1 6",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbq1rk1/ppp2pbp/3p1np1/4p3/2P1P3/2N3P1/PP1PNPBP/R1BQK2R w KQ - 0 7",
+          "type": "student",
+          "move": "e1g1",
+          "san": "O-O",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbq1rk1/ppp2pbp/3p1np1/4p3/2P1P3/2N3P1/PP1PNPBP/R1BQ1RK1 b - - 1 7",
+          "type": "auto",
+          "move": "c7c6",
+          "san": "c6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbq1rk1/pp3pbp/2pp1np1/4p3/2P1P3/2N3P1/PP1PNPBP/R1BQ1RK1 w - - 0 8",
+          "type": "student",
+          "move": "d2d3",
+          "san": "d3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbq1rk1/pp3pbp/2pp1np1/4p3/2P1P3/2NP2P1/PP2NPBP/R1BQ1RK1 b - - 0 8",
+          "type": "auto",
+          "move": "a7a6",
+          "san": "a6",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Myers Gambit",
+      "description": "ECO A10 – English Opening: Myers Gambit",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "g7g5",
+          "san": "g5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppp1p/8/6p1/2P5/8/PP1PPPPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppp1p/8/6p1/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+          "type": "auto",
+          "move": "f8g7",
+          "san": "Bg7",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Porcupine Variation",
+      "description": "ECO A10 – English Opening: Porcupine Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "f7f5",
+          "san": "f5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppppp1pp/8/5p2/2P5/8/PP1PPPPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "b1c3",
+          "san": "Nc3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppppp1pp/8/5p2/2P5/2N5/PP1PPPPP/R1BQKBNR b KQkq - 1 2",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppppp1pp/5n2/5p2/2P5/2N5/PP1PPPPP/R1BQKBNR w KQkq - 2 3",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppppp1pp/5n2/5p2/2P1P3/2N5/PP1P1PPP/R1BQKBNR b KQkq - 0 3",
+          "type": "auto",
+          "move": "f5e4",
+          "san": "fxe4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppppp1pp/5n2/8/2P1p3/2N5/PP1P1PPP/R1BQKBNR w KQkq - 0 4",
+          "type": "student",
+          "move": "g2g4",
+          "san": "g4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Zilbermints Gambit",
+      "description": "ECO A10 – English Opening: Zilbermints Gambit",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "g7g5",
+          "san": "g5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppp1p/8/6p1/2P5/8/PP1PPPPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppp1p/8/6p1/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Agincourt Defense",
+      "description": "ECO A13 – English Opening: Agincourt Defense",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e6",
+          "san": "e6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/4p3/8/2P5/8/PP1PPPPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/4p3/8/2P5/5N2/PP1PPPPP/RNBQKB1R b KQkq - 1 2",
+          "type": "auto",
+          "move": "d7d5",
+          "san": "d5",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Agincourt Defense, Bogoljubow Defense",
+      "description": "ECO A13 – English Opening: Agincourt Defense, Bogoljubow Defense",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e6",
+          "san": "e6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/4p3/8/2P5/8/PP1PPPPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/4p3/8/2P5/5N2/PP1PPPPP/RNBQKB1R b KQkq - 1 2",
+          "type": "auto",
+          "move": "d7d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/2P5/5N2/PP1PPPPP/RNBQKB1R w KQkq - 0 3",
+          "type": "student",
+          "move": "g2g3",
+          "san": "g3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/2P5/5NP1/PP1PPP1P/RNBQKB1R b KQkq - 0 3",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/2P5/5NP1/PP1PPP1P/RNBQKB1R w KQkq - 1 4",
+          "type": "student",
+          "move": "f1g2",
+          "san": "Bg2",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/2P5/5NP1/PP1PPPBP/RNBQK2R b KQkq - 2 4",
+          "type": "auto",
+          "move": "f8d6",
+          "san": "Bd6",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Agincourt Defense, Kurajica Defense",
+      "description": "ECO A13 – English Opening: Agincourt Defense, Kurajica Defense",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e6",
+          "san": "e6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/4p3/8/2P5/8/PP1PPPPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/4p3/8/2P5/5N2/PP1PPPPP/RNBQKB1R b KQkq - 1 2",
+          "type": "auto",
+          "move": "d7d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/2P5/5N2/PP1PPPPP/RNBQKB1R w KQkq - 0 3",
+          "type": "student",
+          "move": "g2g3",
+          "san": "g3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/2P5/5NP1/PP1PPP1P/RNBQKB1R b KQkq - 0 3",
+          "type": "auto",
+          "move": "c7c6",
+          "san": "c6",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Agincourt Defense, Tarrasch Defense",
+      "description": "ECO A13 – English Opening: Agincourt Defense, Tarrasch Defense",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e6",
+          "san": "e6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/4p3/8/2P5/8/PP1PPPPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/4p3/8/2P5/5N2/PP1PPPPP/RNBQKB1R b KQkq - 1 2",
+          "type": "auto",
+          "move": "d7d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/2P5/5N2/PP1PPPPP/RNBQKB1R w KQkq - 0 3",
+          "type": "student",
+          "move": "g2g3",
+          "san": "g3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/2P5/5NP1/PP1PPP1P/RNBQKB1R b KQkq - 0 3",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/2P5/5NP1/PP1PPP1P/RNBQKB1R w KQkq - 1 4",
+          "type": "student",
+          "move": "f1g2",
+          "san": "Bg2",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/2P5/5NP1/PP1PPPBP/RNBQK2R b KQkq - 2 4",
+          "type": "auto",
+          "move": "c7c5",
+          "san": "c5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp3ppp/4pn2/2pp4/2P5/5NP1/PP1PPPBP/RNBQK2R w KQkq - 0 5",
+          "type": "student",
+          "move": "b2b3",
+          "san": "b3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp3ppp/4pn2/2pp4/2P5/1P3NP1/P2PPPBP/RNBQK2R b KQkq - 0 5",
+          "type": "auto",
+          "move": "b8c6",
+          "san": "Nc6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkb1r/pp3ppp/2n1pn2/2pp4/2P5/1P3NP1/P2PPPBP/RNBQK2R w KQkq - 1 6",
+          "type": "student",
+          "move": "e1g1",
+          "san": "O-O",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkb1r/pp3ppp/2n1pn2/2pp4/2P5/1P3NP1/P2PPPBP/RNBQ1RK1 b kq - 2 6",
+          "type": "auto",
+          "move": "f8e7",
+          "san": "Be7",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Agincourt Defense, Wimpy System",
+      "description": "ECO A13 – English Opening: Agincourt Defense, Wimpy System",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e6",
+          "san": "e6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/4p3/8/2P5/8/PP1PPPPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/4p3/8/2P5/5N2/PP1PPPPP/RNBQKB1R b KQkq - 1 2",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppp1ppp/4pn2/8/2P5/5N2/PP1PPPPP/RNBQKB1R w KQkq - 2 3",
+          "type": "student",
+          "move": "b2b3",
+          "san": "b3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppp1ppp/4pn2/8/2P5/1P3N2/P2PPPPP/RNBQKB1R b KQkq - 0 3",
+          "type": "auto",
+          "move": "d7d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/2P5/1P3N2/P2PPPPP/RNBQKB1R w KQkq - 0 4",
+          "type": "student",
+          "move": "c1b2",
+          "san": "Bb2",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/2P5/1P3N2/PB1PPPPP/RN1QKB1R b KQkq - 1 4",
+          "type": "auto",
+          "move": "c7c5",
+          "san": "c5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp3ppp/4pn2/2pp4/2P5/1P3N2/PB1PPPPP/RN1QKB1R w KQkq - 0 5",
+          "type": "student",
+          "move": "e2e3",
+          "san": "e3",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,522 @@
+{
+  "id": "scandinavian",
+  "opening": "Scandinavian Defense",
+  "category": "Opening",
+  "description": "Scandinavian Defense – 12 variation(s). Includes: Reversed Scandinavian, Anglo-Scandinavian Defense, Löhn Gambit, Anglo-Scandinavian Defense, Malvinas Variation…",
+  "side": "black",
+  "lines": [
+    {
+      "line_name": "Reversed Scandinavian",
+      "description": "ECO A00 – Van Geet Opening: Reversed Scandinavian",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "b1c3",
+          "san": "Nc3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/2N5/PPPPPPPP/R1BQKBNR b KQkq - 1 1",
+          "type": "student",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/8/2N5/PPPPPPPP/R1BQKBNR w KQkq - 0 2",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/3P4/2N5/PPP1PPPP/R1BQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "e5d4",
+          "san": "exd4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/8/3p4/2N5/PPP1PPPP/R1BQKBNR w KQkq - 0 3",
+          "type": "auto",
+          "move": "d1d4",
+          "san": "Qxd4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/8/3Q4/2N5/PPP1PPPP/R1B1KBNR b KQkq - 0 3",
+          "type": "student",
+          "move": "b8c6",
+          "san": "Nc6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/8/3Q4/2N5/PPP1PPPP/R1B1KBNR w KQkq - 1 4",
+          "type": "auto",
+          "move": "d4a4",
+          "san": "Qa4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Anglo-Scandinavian Defense, Löhn Gambit",
+      "description": "ECO A10 – English Opening: Anglo-Scandinavian Defense, Löhn Gambit",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "d7d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp1pppp/8/3p4/2P5/8/PP1PPPPP/RNBQKBNR w KQkq - 0 2",
+          "type": "auto",
+          "move": "c4d5",
+          "san": "cxd5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp1pppp/8/3P4/8/8/PP1PPPPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "e7e6",
+          "san": "e6",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Anglo-Scandinavian Defense, Malvinas Variation",
+      "description": "ECO A10 – English Opening: Anglo-Scandinavian Defense, Malvinas Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "d7d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp1pppp/8/3p4/2P5/8/PP1PPPPP/RNBQKBNR w KQkq - 0 2",
+          "type": "auto",
+          "move": "c4d5",
+          "san": "cxd5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp1pppp/8/3P4/8/8/PP1PPPPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "d8d5",
+          "san": "Qxd5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kbnr/ppp1pppp/8/3q4/8/8/PP1PPPPP/RNBQKBNR w KQkq - 0 3",
+          "type": "auto",
+          "move": "b1c3",
+          "san": "Nc3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kbnr/ppp1pppp/8/3q4/8/2N5/PP1PPPPP/R1BQKBNR b KQkq - 1 3",
+          "type": "student",
+          "move": "d5a5",
+          "san": "Qa5",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Anglo-Scandinavian Defense, Schulz Gambit",
+      "description": "ECO A10 – English Opening: Anglo-Scandinavian Defense, Schulz Gambit",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "d7d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp1pppp/8/3p4/2P5/8/PP1PPPPP/RNBQKBNR w KQkq - 0 2",
+          "type": "auto",
+          "move": "c4d5",
+          "san": "cxd5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/ppp1pppp/8/3P4/8/8/PP1PPPPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Anglo-Indian Defense, Scandinavian Defense",
+      "description": "ECO A15 – English Opening: Anglo-Indian Defense, Scandinavian Defense",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/2P5/8/PP1PPPPP/RNBQKBNR w KQkq - 1 2",
+          "type": "auto",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/2P5/5N2/PP1PPPPP/RNBQKB1R b KQkq - 2 2",
+          "type": "student",
+          "move": "d7d5",
+          "san": "d5",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Anglo-Indian Defense, Scandinavian Defense, Exchange Variation",
+      "description": "ECO A15 – English Opening: Anglo-Indian Defense, Scandinavian Defense, Exchange Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/2P5/8/PP1PPPPP/RNBQKBNR w KQkq - 1 2",
+          "type": "auto",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/2P5/5N2/PP1PPPPP/RNBQKB1R b KQkq - 2 2",
+          "type": "student",
+          "move": "d7d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/2P5/5N2/PP1PPPPP/RNBQKB1R w KQkq - 0 3",
+          "type": "auto",
+          "move": "c4d5",
+          "san": "cxd5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/5n2/3P4/8/5N2/PP1PPPPP/RNBQKB1R b KQkq - 0 3",
+          "type": "student",
+          "move": "f6d5",
+          "san": "Nxd5",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Scandinavian Variation",
+      "description": "ECO B00 – Nimzowitsch Defense: Scandinavian Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "b8c6",
+          "san": "Nc6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppppppp/2n5/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 1 2",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppppppp/2n5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "d7d5",
+          "san": "d5",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Scandinavian Variation, Aachen Gambit",
+      "description": "ECO B00 – Nimzowitsch Defense: Scandinavian Variation, Aachen Gambit",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "b8c6",
+          "san": "Nc6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppppppp/2n5/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 1 2",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppppppp/2n5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "d7d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/ppp1pppp/2n5/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3",
+          "type": "auto",
+          "move": "e4d5",
+          "san": "exd5",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/ppp1pppp/2n5/3P4/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3",
+          "type": "student",
+          "move": "c6b4",
+          "san": "Nb4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Scandinavian Variation, Advance Variation",
+      "description": "ECO B00 – Nimzowitsch Defense: Scandinavian Variation, Advance Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "b8c6",
+          "san": "Nc6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppppppp/2n5/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 1 2",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppppppp/2n5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "d7d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/ppp1pppp/2n5/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3",
+          "type": "auto",
+          "move": "e4e5",
+          "san": "e5",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Scandinavian Variation, Bogoljubow Variation",
+      "description": "ECO B00 – Nimzowitsch Defense: Scandinavian Variation, Bogoljubow Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "b8c6",
+          "san": "Nc6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppppppp/2n5/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 1 2",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppppppp/2n5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "d7d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/ppp1pppp/2n5/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3",
+          "type": "auto",
+          "move": "b1c3",
+          "san": "Nc3",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Scandinavian Variation, Bogoljubow Variation",
+      "description": "ECO B00 – Nimzowitsch Defense: Scandinavian Variation, Bogoljubow Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "b8c6",
+          "san": "Nc6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppppppp/2n5/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 1 2",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppppppp/2n5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "d7d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/ppp1pppp/2n5/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3",
+          "type": "auto",
+          "move": "b1c3",
+          "san": "Nc3",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/ppp1pppp/2n5/3p4/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq - 1 3",
+          "type": "student",
+          "move": "d5e4",
+          "san": "dxe4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Scandinavian Variation, Bogoljubow Variation, Brandics Gambit",
+      "description": "ECO B00 – Nimzowitsch Defense: Scandinavian Variation, Bogoljubow Variation, Brandics Gambit",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "auto",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "student",
+          "move": "b8c6",
+          "san": "Nc6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppppppp/2n5/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 1 2",
+          "type": "auto",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppppppp/2n5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+          "type": "student",
+          "move": "d7d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/ppp1pppp/2n5/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3",
+          "type": "auto",
+          "move": "b1c3",
+          "san": "Nc3",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/ppp1pppp/2n5/3p4/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq - 1 3",
+          "type": "student",
+          "move": "a7a6",
+          "san": "a6",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

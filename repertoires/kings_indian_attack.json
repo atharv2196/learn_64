@@ -1,0 +1,732 @@
+{
+  "id": "kings_indian_attack",
+  "opening": "King's Indian Attack",
+  "category": "Opening",
+  "description": "King's Indian Attack – 12 variation(s). Includes: King's Indian Attack, Smyslov Variation, Spassky Variation…",
+  "side": "white",
+  "lines": [
+    {
+      "line_name": "King's Indian Attack",
+      "description": "ECO A05 – King's Indian Attack",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 1 1",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 2 2",
+          "type": "student",
+          "move": "g2g3",
+          "san": "g3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/8/5NP1/PPPPPP1P/RNBQKB1R b KQkq - 0 2",
+          "type": "auto",
+          "move": "d7d5",
+          "san": "d5",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Smyslov Variation",
+      "description": "ECO A05 – King's Indian Attack: Smyslov Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 1 1",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 2 2",
+          "type": "student",
+          "move": "g2g3",
+          "san": "g3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/8/5NP1/PPPPPP1P/RNBQKB1R b KQkq - 0 2",
+          "type": "auto",
+          "move": "g7g6",
+          "san": "g6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppp1p/5np1/8/8/5NP1/PPPPPP1P/RNBQKB1R w KQkq - 0 3",
+          "type": "student",
+          "move": "b2b4",
+          "san": "b4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Spassky Variation",
+      "description": "ECO A05 – King's Indian Attack: Spassky Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 1 1",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 2 2",
+          "type": "student",
+          "move": "g2g3",
+          "san": "g3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/8/5NP1/PPPPPP1P/RNBQKB1R b KQkq - 0 2",
+          "type": "auto",
+          "move": "b7b5",
+          "san": "b5",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Symmetrical Defense",
+      "description": "ECO A05 – King's Indian Attack: Symmetrical Defense",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 1 1",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 2 2",
+          "type": "student",
+          "move": "g2g3",
+          "san": "g3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/8/5NP1/PPPPPP1P/RNBQKB1R b KQkq - 0 2",
+          "type": "auto",
+          "move": "g7g6",
+          "san": "g6",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Wahls Defense",
+      "description": "ECO A05 – King's Indian Attack: Wahls Defense",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 1 1",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 2 2",
+          "type": "student",
+          "move": "g2g3",
+          "san": "g3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/8/5NP1/PPPPPP1P/RNBQKB1R b KQkq - 0 2",
+          "type": "auto",
+          "move": "g7g6",
+          "san": "g6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppp1p/5np1/8/8/5NP1/PPPPPP1P/RNBQKB1R w KQkq - 0 3",
+          "type": "student",
+          "move": "f1g2",
+          "san": "Bg2",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppp1p/5np1/8/8/5NP1/PPPPPPBP/RNBQK2R b KQkq - 1 3",
+          "type": "auto",
+          "move": "f8g7",
+          "san": "Bg7",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk2r/ppppppbp/5np1/8/8/5NP1/PPPPPPBP/RNBQK2R w KQkq - 2 4",
+          "type": "student",
+          "move": "e1g1",
+          "san": "O-O",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk2r/ppppppbp/5np1/8/8/5NP1/PPPPPPBP/RNBQ1RK1 b kq - 3 4",
+          "type": "auto",
+          "move": "e8g8",
+          "san": "O-O",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbq1rk1/ppppppbp/5np1/8/8/5NP1/PPPPPPBP/RNBQ1RK1 w - - 4 5",
+          "type": "student",
+          "move": "d2d3",
+          "san": "d3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbq1rk1/ppppppbp/5np1/8/8/3P1NP1/PPP1PPBP/RNBQ1RK1 b - - 0 5",
+          "type": "auto",
+          "move": "d7d5",
+          "san": "d5",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "with Bf5",
+      "description": "ECO A07 – King's Indian Attack, with Bf5",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 1 1",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 2 2",
+          "type": "student",
+          "move": "g2g3",
+          "san": "g3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/8/5NP1/PPPPPP1P/RNBQKB1R b KQkq - 0 2",
+          "type": "auto",
+          "move": "d7d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/8/5NP1/PPPPPP1P/RNBQKB1R w KQkq - 0 3",
+          "type": "student",
+          "move": "f1g2",
+          "san": "Bg2",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/8/5NP1/PPPPPPBP/RNBQK2R b KQkq - 1 3",
+          "type": "auto",
+          "move": "c7c6",
+          "san": "c6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp2pppp/2p2n2/3p4/8/5NP1/PPPPPPBP/RNBQK2R w KQkq - 0 4",
+          "type": "student",
+          "move": "e1g1",
+          "san": "O-O",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp2pppp/2p2n2/3p4/8/5NP1/PPPPPPBP/RNBQ1RK1 b kq - 1 4",
+          "type": "auto",
+          "move": "c8f5",
+          "san": "Bf5",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "with Bf5",
+      "description": "ECO A07 – King's Indian Attack, with Bf5",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 1 1",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 2 2",
+          "type": "student",
+          "move": "g2g3",
+          "san": "g3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/8/5NP1/PPPPPP1P/RNBQKB1R b KQkq - 0 2",
+          "type": "auto",
+          "move": "d7d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/8/5NP1/PPPPPP1P/RNBQKB1R w KQkq - 0 3",
+          "type": "student",
+          "move": "f1g2",
+          "san": "Bg2",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/8/5NP1/PPPPPPBP/RNBQK2R b KQkq - 1 3",
+          "type": "auto",
+          "move": "c7c6",
+          "san": "c6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp2pppp/2p2n2/3p4/8/5NP1/PPPPPPBP/RNBQK2R w KQkq - 0 4",
+          "type": "student",
+          "move": "e1g1",
+          "san": "O-O",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp2pppp/2p2n2/3p4/8/5NP1/PPPPPPBP/RNBQ1RK1 b kq - 1 4",
+          "type": "auto",
+          "move": "c8f5",
+          "san": "Bf5",
+          "explanation": ""
+        },
+        {
+          "fen": "rn1qkb1r/pp2pppp/2p2n2/3p1b2/8/5NP1/PPPPPPBP/RNBQ1RK1 w kq - 2 5",
+          "type": "student",
+          "move": "d2d3",
+          "san": "d3",
+          "explanation": ""
+        },
+        {
+          "fen": "rn1qkb1r/pp2pppp/2p2n2/3p1b2/8/3P1NP1/PPP1PPBP/RNBQ1RK1 b kq - 0 5",
+          "type": "auto",
+          "move": "h7h6",
+          "san": "h6",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "with Bf5",
+      "description": "ECO A07 – King's Indian Attack, with Bf5",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 1 1",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 2 2",
+          "type": "student",
+          "move": "g2g3",
+          "san": "g3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/8/5NP1/PPPPPP1P/RNBQKB1R b KQkq - 0 2",
+          "type": "auto",
+          "move": "d7d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/8/5NP1/PPPPPP1P/RNBQKB1R w KQkq - 0 3",
+          "type": "student",
+          "move": "f1g2",
+          "san": "Bg2",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/8/5NP1/PPPPPPBP/RNBQK2R b KQkq - 1 3",
+          "type": "auto",
+          "move": "c7c6",
+          "san": "c6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp2pppp/2p2n2/3p4/8/5NP1/PPPPPPBP/RNBQK2R w KQkq - 0 4",
+          "type": "student",
+          "move": "e1g1",
+          "san": "O-O",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp2pppp/2p2n2/3p4/8/5NP1/PPPPPPBP/RNBQ1RK1 b kq - 1 4",
+          "type": "auto",
+          "move": "c8f5",
+          "san": "Bf5",
+          "explanation": ""
+        },
+        {
+          "fen": "rn1qkb1r/pp2pppp/2p2n2/3p1b2/8/5NP1/PPPPPPBP/RNBQ1RK1 w kq - 2 5",
+          "type": "student",
+          "move": "d2d3",
+          "san": "d3",
+          "explanation": ""
+        },
+        {
+          "fen": "rn1qkb1r/pp2pppp/2p2n2/3p1b2/8/3P1NP1/PPP1PPBP/RNBQ1RK1 b kq - 0 5",
+          "type": "auto",
+          "move": "h7h6",
+          "san": "h6",
+          "explanation": ""
+        },
+        {
+          "fen": "rn1qkb1r/pp2ppp1/2p2n1p/3p1b2/8/3P1NP1/PPP1PPBP/RNBQ1RK1 w kq - 0 6",
+          "type": "student",
+          "move": "c2c4",
+          "san": "c4",
+          "explanation": ""
+        },
+        {
+          "fen": "rn1qkb1r/pp2ppp1/2p2n1p/3p1b2/2P5/3P1NP1/PP2PPBP/RNBQ1RK1 b kq - 0 6",
+          "type": "auto",
+          "move": "d5c4",
+          "san": "dxc4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "with Bf5",
+      "description": "ECO A07 – King's Indian Attack, with Bf5",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 1 1",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 2 2",
+          "type": "student",
+          "move": "g2g3",
+          "san": "g3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/8/5NP1/PPPPPP1P/RNBQKB1R b KQkq - 0 2",
+          "type": "auto",
+          "move": "d7d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/8/5NP1/PPPPPP1P/RNBQKB1R w KQkq - 0 3",
+          "type": "student",
+          "move": "f1g2",
+          "san": "Bg2",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/8/5NP1/PPPPPPBP/RNBQK2R b KQkq - 1 3",
+          "type": "auto",
+          "move": "c7c6",
+          "san": "c6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp2pppp/2p2n2/3p4/8/5NP1/PPPPPPBP/RNBQK2R w KQkq - 0 4",
+          "type": "student",
+          "move": "e1g1",
+          "san": "O-O",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp2pppp/2p2n2/3p4/8/5NP1/PPPPPPBP/RNBQ1RK1 b kq - 1 4",
+          "type": "auto",
+          "move": "c8f5",
+          "san": "Bf5",
+          "explanation": ""
+        },
+        {
+          "fen": "rn1qkb1r/pp2pppp/2p2n2/3p1b2/8/5NP1/PPPPPPBP/RNBQ1RK1 w kq - 2 5",
+          "type": "student",
+          "move": "d2d3",
+          "san": "d3",
+          "explanation": ""
+        },
+        {
+          "fen": "rn1qkb1r/pp2pppp/2p2n2/3p1b2/8/3P1NP1/PPP1PPBP/RNBQ1RK1 b kq - 0 5",
+          "type": "auto",
+          "move": "e7e6",
+          "san": "e6",
+          "explanation": ""
+        },
+        {
+          "fen": "rn1qkb1r/pp3ppp/2p1pn2/3p1b2/8/3P1NP1/PPP1PPBP/RNBQ1RK1 w kq - 0 6",
+          "type": "student",
+          "move": "b1d2",
+          "san": "Nbd2",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "with Bf5",
+      "description": "ECO A07 – King's Indian Attack, with Bf5",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 1 1",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 2 2",
+          "type": "student",
+          "move": "g2g3",
+          "san": "g3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/8/5NP1/PPPPPP1P/RNBQKB1R b KQkq - 0 2",
+          "type": "auto",
+          "move": "d7d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/8/5NP1/PPPPPP1P/RNBQKB1R w KQkq - 0 3",
+          "type": "student",
+          "move": "f1g2",
+          "san": "Bg2",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/8/5NP1/PPPPPPBP/RNBQK2R b KQkq - 1 3",
+          "type": "auto",
+          "move": "c7c6",
+          "san": "c6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp2pppp/2p2n2/3p4/8/5NP1/PPPPPPBP/RNBQK2R w KQkq - 0 4",
+          "type": "student",
+          "move": "e1g1",
+          "san": "O-O",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp2pppp/2p2n2/3p4/8/5NP1/PPPPPPBP/RNBQ1RK1 b kq - 1 4",
+          "type": "auto",
+          "move": "c8f5",
+          "san": "Bf5",
+          "explanation": ""
+        },
+        {
+          "fen": "rn1qkb1r/pp2pppp/2p2n2/3p1b2/8/5NP1/PPPPPPBP/RNBQ1RK1 w kq - 2 5",
+          "type": "student",
+          "move": "d2d3",
+          "san": "d3",
+          "explanation": ""
+        },
+        {
+          "fen": "rn1qkb1r/pp2pppp/2p2n2/3p1b2/8/3P1NP1/PPP1PPBP/RNBQ1RK1 b kq - 0 5",
+          "type": "auto",
+          "move": "e7e6",
+          "san": "e6",
+          "explanation": ""
+        },
+        {
+          "fen": "rn1qkb1r/pp3ppp/2p1pn2/3p1b2/8/3P1NP1/PPP1PPBP/RNBQ1RK1 w kq - 0 6",
+          "type": "student",
+          "move": "f3h4",
+          "san": "Nh4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "with e6",
+      "description": "ECO A07 – King's Indian Attack, with e6",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 1 1",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 2 2",
+          "type": "student",
+          "move": "g2g3",
+          "san": "g3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/8/5NP1/PPPPPP1P/RNBQKB1R b KQkq - 0 2",
+          "type": "auto",
+          "move": "d7d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/8/5NP1/PPPPPP1P/RNBQKB1R w KQkq - 0 3",
+          "type": "student",
+          "move": "f1g2",
+          "san": "Bg2",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/8/5NP1/PPPPPPBP/RNBQK2R b KQkq - 1 3",
+          "type": "auto",
+          "move": "e7e6",
+          "san": "e6",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "with e6",
+      "description": "ECO A07 – King's Indian Attack, with e6",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 1 1",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 2 2",
+          "type": "student",
+          "move": "g2g3",
+          "san": "g3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/8/5NP1/PPPPPP1P/RNBQKB1R b KQkq - 0 2",
+          "type": "auto",
+          "move": "d7d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/8/5NP1/PPPPPP1P/RNBQKB1R w KQkq - 0 3",
+          "type": "student",
+          "move": "f1g2",
+          "san": "Bg2",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/8/5NP1/PPPPPPBP/RNBQK2R b KQkq - 1 3",
+          "type": "auto",
+          "move": "e7e6",
+          "san": "e6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/8/5NP1/PPPPPPBP/RNBQK2R w KQkq - 0 4",
+          "type": "student",
+          "move": "e1g1",
+          "san": "O-O",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/8/5NP1/PPPPPPBP/RNBQ1RK1 b kq - 1 4",
+          "type": "auto",
+          "move": "f8e7",
+          "san": "Be7",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

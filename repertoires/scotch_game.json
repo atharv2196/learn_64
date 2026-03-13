@@ -1,0 +1,921 @@
+{
+  "id": "scotch_game",
+  "opening": "Scotch Game",
+  "category": "Opening",
+  "description": "Scotch Game – 12 variation(s). Includes: Scotch Game, Scotch Game, Benima Defense…",
+  "side": "white",
+  "lines": [
+    {
+      "line_name": "Scotch Game",
+      "description": "ECO C44 – Scotch Game",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "type": "auto",
+          "move": "b8c6",
+          "san": "Nc6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Scotch Game",
+      "description": "ECO C44 – Scotch Game",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "type": "auto",
+          "move": "b8c6",
+          "san": "Nc6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+          "type": "auto",
+          "move": "e5d4",
+          "san": "exd4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Benima Defense",
+      "description": "ECO C44 – Scotch Game: Benima Defense",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "type": "auto",
+          "move": "b8c6",
+          "san": "Nc6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "type": "student",
+          "move": "f1c4",
+          "san": "Bc4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+          "type": "auto",
+          "move": "f8e7",
+          "san": "Be7",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqk1nr/ppppbppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqk1nr/ppppbppp/2n5/4p3/2BPP3/5N2/PPP2PPP/RNBQK2R b KQkq - 0 4",
+          "type": "auto",
+          "move": "e5d4",
+          "san": "exd4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Cochrane Variation",
+      "description": "ECO C44 – Scotch Game: Cochrane Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "type": "auto",
+          "move": "b8c6",
+          "san": "Nc6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+          "type": "auto",
+          "move": "e5d4",
+          "san": "exd4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
+          "type": "student",
+          "move": "f1c4",
+          "san": "Bc4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/8/2BpP3/5N2/PPP2PPP/RNBQK2R b KQkq - 1 4",
+          "type": "auto",
+          "move": "f8b4",
+          "san": "Bb4+",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqk1nr/pppp1ppp/2n5/8/1bBpP3/5N2/PPP2PPP/RNBQK2R w KQkq - 2 5",
+          "type": "student",
+          "move": "c2c3",
+          "san": "c3",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqk1nr/pppp1ppp/2n5/8/1bBpP3/2P2N2/PP3PPP/RNBQK2R b KQkq - 0 5",
+          "type": "auto",
+          "move": "d4c3",
+          "san": "dxc3",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqk1nr/pppp1ppp/2n5/8/1bB1P3/2p2N2/PP3PPP/RNBQK2R w KQkq - 0 6",
+          "type": "student",
+          "move": "b2c3",
+          "san": "bxc3",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqk1nr/pppp1ppp/2n5/8/1bB1P3/2P2N2/P4PPP/RNBQK2R b KQkq - 0 6",
+          "type": "auto",
+          "move": "b4a5",
+          "san": "Ba5",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqk1nr/pppp1ppp/2n5/b7/2B1P3/2P2N2/P4PPP/RNBQK2R w KQkq - 1 7",
+          "type": "student",
+          "move": "e4e5",
+          "san": "e5",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Cochrane-Shumov Defense",
+      "description": "ECO C44 – Scotch Game: Cochrane-Shumov Defense",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "type": "auto",
+          "move": "b8c6",
+          "san": "Nc6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+          "type": "auto",
+          "move": "e5d4",
+          "san": "exd4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
+          "type": "student",
+          "move": "f1c4",
+          "san": "Bc4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/8/2BpP3/5N2/PPP2PPP/RNBQK2R b KQkq - 1 4",
+          "type": "auto",
+          "move": "f8c5",
+          "san": "Bc5",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqk1nr/pppp1ppp/2n5/2b5/2BpP3/5N2/PPP2PPP/RNBQK2R w KQkq - 2 5",
+          "type": "student",
+          "move": "f3g5",
+          "san": "Ng5",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqk1nr/pppp1ppp/2n5/2b3N1/2BpP3/8/PPP2PPP/RNBQK2R b KQkq - 3 5",
+          "type": "auto",
+          "move": "g8h6",
+          "san": "Nh6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqk2r/pppp1ppp/2n4n/2b3N1/2BpP3/8/PPP2PPP/RNBQK2R w KQkq - 4 6",
+          "type": "student",
+          "move": "g5f7",
+          "san": "Nxf7",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqk2r/pppp1Npp/2n4n/2b5/2BpP3/8/PPP2PPP/RNBQK2R b KQkq - 0 6",
+          "type": "auto",
+          "move": "h6f7",
+          "san": "Nxf7",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqk2r/pppp1npp/2n5/2b5/2BpP3/8/PPP2PPP/RNBQK2R w KQkq - 0 7",
+          "type": "student",
+          "move": "c4f7",
+          "san": "Bxf7+",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqk2r/pppp1Bpp/2n5/2b5/3pP3/8/PPP2PPP/RNBQK2R b KQkq - 0 7",
+          "type": "auto",
+          "move": "e8f7",
+          "san": "Kxf7",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bq3r/pppp1kpp/2n5/2b5/3pP3/8/PPP2PPP/RNBQK2R w KQ - 0 8",
+          "type": "student",
+          "move": "d1h5",
+          "san": "Qh5+",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bq3r/pppp1kpp/2n5/2b4Q/3pP3/8/PPP2PPP/RNB1K2R b KQ - 1 8",
+          "type": "auto",
+          "move": "g7g6",
+          "san": "g6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bq3r/pppp1k1p/2n3p1/2b4Q/3pP3/8/PPP2PPP/RNB1K2R w KQ - 0 9",
+          "type": "student",
+          "move": "h5c5",
+          "san": "Qxc5",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bq3r/pppp1k1p/2n3p1/2Q5/3pP3/8/PPP2PPP/RNB1K2R b KQ - 0 9",
+          "type": "auto",
+          "move": "d7d5",
+          "san": "d5",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Göring Gambit",
+      "description": "ECO C44 – Scotch Game: Göring Gambit",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "type": "auto",
+          "move": "b8c6",
+          "san": "Nc6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+          "type": "auto",
+          "move": "e5d4",
+          "san": "exd4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
+          "type": "student",
+          "move": "c2c3",
+          "san": "c3",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Göring Gambit, Bardeleben Variation",
+      "description": "ECO C44 – Scotch Game: Göring Gambit, Bardeleben Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "type": "auto",
+          "move": "b8c6",
+          "san": "Nc6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+          "type": "auto",
+          "move": "e5d4",
+          "san": "exd4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
+          "type": "student",
+          "move": "c2c3",
+          "san": "c3",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/8/3pP3/2P2N2/PP3PPP/RNBQKB1R b KQkq - 0 4",
+          "type": "auto",
+          "move": "d4c3",
+          "san": "dxc3",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/8/4P3/2p2N2/PP3PPP/RNBQKB1R w KQkq - 0 5",
+          "type": "student",
+          "move": "f1c4",
+          "san": "Bc4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/8/2B1P3/2p2N2/PP3PPP/RNBQK2R b KQkq - 1 5",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkb1r/pppp1ppp/2n2n2/8/2B1P3/2p2N2/PP3PPP/RNBQK2R w KQkq - 2 6",
+          "type": "student",
+          "move": "b1c3",
+          "san": "Nxc3",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkb1r/pppp1ppp/2n2n2/8/2B1P3/2N2N2/PP3PPP/R1BQK2R b KQkq - 0 6",
+          "type": "auto",
+          "move": "f8b4",
+          "san": "Bb4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Göring Gambit, Double Pawn Sacrifice",
+      "description": "ECO C44 – Scotch Game: Göring Gambit, Double Pawn Sacrifice",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "type": "auto",
+          "move": "b8c6",
+          "san": "Nc6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+          "type": "auto",
+          "move": "e5d4",
+          "san": "exd4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
+          "type": "student",
+          "move": "c2c3",
+          "san": "c3",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/8/3pP3/2P2N2/PP3PPP/RNBQKB1R b KQkq - 0 4",
+          "type": "auto",
+          "move": "d4c3",
+          "san": "dxc3",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/8/4P3/2p2N2/PP3PPP/RNBQKB1R w KQkq - 0 5",
+          "type": "student",
+          "move": "f1c4",
+          "san": "Bc4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Göring Gambit, Main Line",
+      "description": "ECO C44 – Scotch Game: Göring Gambit, Main Line",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "type": "auto",
+          "move": "b8c6",
+          "san": "Nc6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+          "type": "auto",
+          "move": "e5d4",
+          "san": "exd4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
+          "type": "student",
+          "move": "c2c3",
+          "san": "c3",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/8/3pP3/2P2N2/PP3PPP/RNBQKB1R b KQkq - 0 4",
+          "type": "auto",
+          "move": "d4c3",
+          "san": "dxc3",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/8/4P3/2p2N2/PP3PPP/RNBQKB1R w KQkq - 0 5",
+          "type": "student",
+          "move": "b1c3",
+          "san": "Nxc3",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/8/4P3/2N2N2/PP3PPP/R1BQKB1R b KQkq - 0 5",
+          "type": "auto",
+          "move": "f8b4",
+          "san": "Bb4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Hanneken Variation",
+      "description": "ECO C44 – Scotch Game: Hanneken Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "type": "auto",
+          "move": "b8c6",
+          "san": "Nc6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+          "type": "auto",
+          "move": "e5d4",
+          "san": "exd4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
+          "type": "student",
+          "move": "f1c4",
+          "san": "Bc4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/8/2BpP3/5N2/PPP2PPP/RNBQK2R b KQkq - 1 4",
+          "type": "auto",
+          "move": "f8b4",
+          "san": "Bb4+",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqk1nr/pppp1ppp/2n5/8/1bBpP3/5N2/PPP2PPP/RNBQK2R w KQkq - 2 5",
+          "type": "student",
+          "move": "c2c3",
+          "san": "c3",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqk1nr/pppp1ppp/2n5/8/1bBpP3/2P2N2/PP3PPP/RNBQK2R b KQkq - 0 5",
+          "type": "auto",
+          "move": "d4c3",
+          "san": "dxc3",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqk1nr/pppp1ppp/2n5/8/1bB1P3/2p2N2/PP3PPP/RNBQK2R w KQkq - 0 6",
+          "type": "student",
+          "move": "e1g1",
+          "san": "O-O",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqk1nr/pppp1ppp/2n5/8/1bB1P3/2p2N2/PP3PPP/RNBQ1RK1 b kq - 1 6",
+          "type": "auto",
+          "move": "c3b2",
+          "san": "cxb2",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqk1nr/pppp1ppp/2n5/8/1bB1P3/5N2/Pp3PPP/RNBQ1RK1 w kq - 0 7",
+          "type": "student",
+          "move": "c1b2",
+          "san": "Bxb2",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqk1nr/pppp1ppp/2n5/8/1bB1P3/5N2/PB3PPP/RN1Q1RK1 b kq - 0 7",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqk2r/pppp1ppp/2n2n2/8/1bB1P3/5N2/PB3PPP/RN1Q1RK1 w kq - 1 8",
+          "type": "student",
+          "move": "f3g5",
+          "san": "Ng5",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqk2r/pppp1ppp/2n2n2/6N1/1bB1P3/8/PB3PPP/RN1Q1RK1 b kq - 2 8",
+          "type": "auto",
+          "move": "e8g8",
+          "san": "O-O",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bq1rk1/pppp1ppp/2n2n2/6N1/1bB1P3/8/PB3PPP/RN1Q1RK1 w - - 3 9",
+          "type": "student",
+          "move": "e4e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bq1rk1/pppp1ppp/2n2n2/4P1N1/1bB5/8/PB3PPP/RN1Q1RK1 b - - 0 9",
+          "type": "auto",
+          "move": "c6e5",
+          "san": "Nxe5",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Haxo Gambit",
+      "description": "ECO C44 – Scotch Game: Haxo Gambit",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "type": "auto",
+          "move": "b8c6",
+          "san": "Nc6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+          "type": "auto",
+          "move": "e5d4",
+          "san": "exd4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
+          "type": "student",
+          "move": "f1c4",
+          "san": "Bc4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/8/2BpP3/5N2/PPP2PPP/RNBQK2R b KQkq - 1 4",
+          "type": "auto",
+          "move": "f8c5",
+          "san": "Bc5",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Lolli Variation",
+      "description": "ECO C44 – Scotch Game: Lolli Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "type": "auto",
+          "move": "b8c6",
+          "san": "Nc6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+          "type": "auto",
+          "move": "c6d4",
+          "san": "Nxd4",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

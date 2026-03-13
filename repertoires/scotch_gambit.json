@@ -1,0 +1,984 @@
+{
+  "id": "scotch_gambit",
+  "opening": "Scotch Gambit",
+  "category": "Gambit",
+  "description": "Scotch Gambit – 12 variation(s). Includes: Scotch Gambit, Scotch Gambit, Advance Variation, Scotch Gambit, Cochrane-Anderssen Variation…",
+  "side": "white",
+  "lines": [
+    {
+      "line_name": "Scotch Gambit",
+      "description": "ECO C44 – Scotch Game: Scotch Gambit",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "type": "auto",
+          "move": "b8c6",
+          "san": "Nc6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+          "type": "auto",
+          "move": "e5d4",
+          "san": "exd4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
+          "type": "student",
+          "move": "f1c4",
+          "san": "Bc4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Scotch Gambit, Advance Variation",
+      "description": "ECO C44 – Scotch Game: Scotch Gambit, Advance Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "type": "auto",
+          "move": "b8c6",
+          "san": "Nc6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+          "type": "auto",
+          "move": "e5d4",
+          "san": "exd4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
+          "type": "student",
+          "move": "f1c4",
+          "san": "Bc4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/8/2BpP3/5N2/PPP2PPP/RNBQK2R b KQkq - 1 4",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkb1r/pppp1ppp/2n2n2/8/2BpP3/5N2/PPP2PPP/RNBQK2R w KQkq - 2 5",
+          "type": "student",
+          "move": "e4e5",
+          "san": "e5",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Scotch Gambit, Cochrane-Anderssen Variation",
+      "description": "ECO C44 – Scotch Game: Scotch Gambit, Cochrane-Anderssen Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "type": "auto",
+          "move": "b8c6",
+          "san": "Nc6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+          "type": "auto",
+          "move": "e5d4",
+          "san": "exd4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
+          "type": "student",
+          "move": "f1c4",
+          "san": "Bc4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/8/2BpP3/5N2/PPP2PPP/RNBQK2R b KQkq - 1 4",
+          "type": "auto",
+          "move": "f8c5",
+          "san": "Bc5",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqk1nr/pppp1ppp/2n5/2b5/2BpP3/5N2/PPP2PPP/RNBQK2R w KQkq - 2 5",
+          "type": "student",
+          "move": "e1g1",
+          "san": "O-O",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqk1nr/pppp1ppp/2n5/2b5/2BpP3/5N2/PPP2PPP/RNBQ1RK1 b kq - 3 5",
+          "type": "auto",
+          "move": "d7d6",
+          "san": "d6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqk1nr/ppp2ppp/2np4/2b5/2BpP3/5N2/PPP2PPP/RNBQ1RK1 w kq - 0 6",
+          "type": "student",
+          "move": "c2c3",
+          "san": "c3",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqk1nr/ppp2ppp/2np4/2b5/2BpP3/2P2N2/PP3PPP/RNBQ1RK1 b kq - 0 6",
+          "type": "auto",
+          "move": "c8g4",
+          "san": "Bg4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Scotch Gambit, Dubois Réti Defense",
+      "description": "ECO C44 – Scotch Game: Scotch Gambit, Dubois Réti Defense",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "type": "auto",
+          "move": "b8c6",
+          "san": "Nc6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "type": "student",
+          "move": "f1c4",
+          "san": "Bc4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2BPP3/5N2/PPP2PPP/RNBQK2R b KQkq - 0 4",
+          "type": "auto",
+          "move": "e5d4",
+          "san": "exd4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Scotch Gambit, Göring Gambit Declined",
+      "description": "ECO C44 – Scotch Game: Scotch Gambit, Göring Gambit Declined",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "type": "auto",
+          "move": "b8c6",
+          "san": "Nc6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+          "type": "auto",
+          "move": "e5d4",
+          "san": "exd4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
+          "type": "student",
+          "move": "c2c3",
+          "san": "c3",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/8/3pP3/2P2N2/PP3PPP/RNBQKB1R b KQkq - 0 4",
+          "type": "auto",
+          "move": "d7d5",
+          "san": "d5",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Scotch Gambit, Kingside Variation",
+      "description": "ECO C44 – Scotch Game: Scotch Gambit, Kingside Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "type": "auto",
+          "move": "b8c6",
+          "san": "Nc6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "type": "student",
+          "move": "f1c4",
+          "san": "Bc4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2BPP3/5N2/PPP2PPP/RNBQK2R b KQkq - 0 4",
+          "type": "auto",
+          "move": "e5d4",
+          "san": "exd4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkb1r/pppp1ppp/2n2n2/8/2BpP3/5N2/PPP2PPP/RNBQK2R w KQkq - 0 5",
+          "type": "student",
+          "move": "e4e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkb1r/pppp1ppp/2n2n2/4P3/2Bp4/5N2/PPP2PPP/RNBQK2R b KQkq - 0 5",
+          "type": "auto",
+          "move": "f6g4",
+          "san": "Ng4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Scotch Gambit, London Defense",
+      "description": "ECO C44 – Scotch Game: Scotch Gambit, London Defense",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "type": "auto",
+          "move": "b8c6",
+          "san": "Nc6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+          "type": "auto",
+          "move": "e5d4",
+          "san": "exd4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
+          "type": "student",
+          "move": "f1c4",
+          "san": "Bc4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/8/2BpP3/5N2/PPP2PPP/RNBQK2R b KQkq - 1 4",
+          "type": "auto",
+          "move": "f8b4",
+          "san": "Bb4+",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Scotch Gambit, Sarratt Variation",
+      "description": "ECO C44 – Scotch Game: Scotch Gambit, Sarratt Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "type": "auto",
+          "move": "b8c6",
+          "san": "Nc6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+          "type": "auto",
+          "move": "e5d4",
+          "san": "exd4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
+          "type": "student",
+          "move": "f1c4",
+          "san": "Bc4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/8/2BpP3/5N2/PPP2PPP/RNBQK2R b KQkq - 1 4",
+          "type": "auto",
+          "move": "f8c5",
+          "san": "Bc5",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqk1nr/pppp1ppp/2n5/2b5/2BpP3/5N2/PPP2PPP/RNBQK2R w KQkq - 2 5",
+          "type": "student",
+          "move": "f3g5",
+          "san": "Ng5",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Scotch Gambit",
+      "description": "ECO C56 – Italian Game: Scotch Gambit",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "type": "auto",
+          "move": "b8c6",
+          "san": "Nc6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "type": "student",
+          "move": "f1c4",
+          "san": "Bc4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2BPP3/5N2/PPP2PPP/RNBQK2R b KQkq - 0 4",
+          "type": "auto",
+          "move": "e5d4",
+          "san": "exd4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkb1r/pppp1ppp/2n2n2/8/2BpP3/5N2/PPP2PPP/RNBQK2R w KQkq - 0 5",
+          "type": "student",
+          "move": "e1g1",
+          "san": "O-O",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Scotch Gambit, Anderssen Attack",
+      "description": "ECO C56 – Italian Game: Scotch Gambit, Anderssen Attack",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "type": "auto",
+          "move": "b8c6",
+          "san": "Nc6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "type": "student",
+          "move": "f1c4",
+          "san": "Bc4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2BPP3/5N2/PPP2PPP/RNBQK2R b KQkq - 0 4",
+          "type": "auto",
+          "move": "e5d4",
+          "san": "exd4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkb1r/pppp1ppp/2n2n2/8/2BpP3/5N2/PPP2PPP/RNBQK2R w KQkq - 0 5",
+          "type": "student",
+          "move": "e1g1",
+          "san": "O-O",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkb1r/pppp1ppp/2n2n2/8/2BpP3/5N2/PPP2PPP/RNBQ1RK1 b kq - 1 5",
+          "type": "auto",
+          "move": "f6e4",
+          "san": "Nxe4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkb1r/pppp1ppp/2n5/8/2Bpn3/5N2/PPP2PPP/RNBQ1RK1 w kq - 0 6",
+          "type": "student",
+          "move": "f1e1",
+          "san": "Re1",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkb1r/pppp1ppp/2n5/8/2Bpn3/5N2/PPP2PPP/RNBQR1K1 b kq - 1 6",
+          "type": "auto",
+          "move": "d7d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkb1r/ppp2ppp/2n5/3p4/2Bpn3/5N2/PPP2PPP/RNBQR1K1 w kq - 0 7",
+          "type": "student",
+          "move": "c4d5",
+          "san": "Bxd5",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkb1r/ppp2ppp/2n5/3B4/3pn3/5N2/PPP2PPP/RNBQR1K1 b kq - 0 7",
+          "type": "auto",
+          "move": "d8d5",
+          "san": "Qxd5",
+          "explanation": ""
+        },
+        {
+          "fen": "r1b1kb1r/ppp2ppp/2n5/3q4/3pn3/5N2/PPP2PPP/RNBQR1K1 w kq - 0 8",
+          "type": "student",
+          "move": "b1c3",
+          "san": "Nc3",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Scotch Gambit, Anderssen Attack, Main Line",
+      "description": "ECO C56 – Italian Game: Scotch Gambit, Anderssen Attack, Main Line",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "type": "auto",
+          "move": "b8c6",
+          "san": "Nc6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "type": "student",
+          "move": "f1c4",
+          "san": "Bc4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2BPP3/5N2/PPP2PPP/RNBQK2R b KQkq - 0 4",
+          "type": "auto",
+          "move": "e5d4",
+          "san": "exd4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkb1r/pppp1ppp/2n2n2/8/2BpP3/5N2/PPP2PPP/RNBQK2R w KQkq - 0 5",
+          "type": "student",
+          "move": "e1g1",
+          "san": "O-O",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkb1r/pppp1ppp/2n2n2/8/2BpP3/5N2/PPP2PPP/RNBQ1RK1 b kq - 1 5",
+          "type": "auto",
+          "move": "f6e4",
+          "san": "Nxe4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkb1r/pppp1ppp/2n5/8/2Bpn3/5N2/PPP2PPP/RNBQ1RK1 w kq - 0 6",
+          "type": "student",
+          "move": "f1e1",
+          "san": "Re1",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkb1r/pppp1ppp/2n5/8/2Bpn3/5N2/PPP2PPP/RNBQR1K1 b kq - 1 6",
+          "type": "auto",
+          "move": "d7d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkb1r/ppp2ppp/2n5/3p4/2Bpn3/5N2/PPP2PPP/RNBQR1K1 w kq - 0 7",
+          "type": "student",
+          "move": "c4d5",
+          "san": "Bxd5",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkb1r/ppp2ppp/2n5/3B4/3pn3/5N2/PPP2PPP/RNBQR1K1 b kq - 0 7",
+          "type": "auto",
+          "move": "d8d5",
+          "san": "Qxd5",
+          "explanation": ""
+        },
+        {
+          "fen": "r1b1kb1r/ppp2ppp/2n5/3q4/3pn3/5N2/PPP2PPP/RNBQR1K1 w kq - 0 8",
+          "type": "student",
+          "move": "b1c3",
+          "san": "Nc3",
+          "explanation": ""
+        },
+        {
+          "fen": "r1b1kb1r/ppp2ppp/2n5/3q4/3pn3/2N2N2/PPP2PPP/R1BQR1K1 b kq - 1 8",
+          "type": "auto",
+          "move": "d5a5",
+          "san": "Qa5",
+          "explanation": ""
+        },
+        {
+          "fen": "r1b1kb1r/ppp2ppp/2n5/q7/3pn3/2N2N2/PPP2PPP/R1BQR1K1 w kq - 2 9",
+          "type": "student",
+          "move": "c3e4",
+          "san": "Nxe4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1b1kb1r/ppp2ppp/2n5/q7/3pN3/5N2/PPP2PPP/R1BQR1K1 b kq - 0 9",
+          "type": "auto",
+          "move": "c8e6",
+          "san": "Be6",
+          "explanation": ""
+        },
+        {
+          "fen": "r3kb1r/ppp2ppp/2n1b3/q7/3pN3/5N2/PPP2PPP/R1BQR1K1 w kq - 1 10",
+          "type": "student",
+          "move": "c1d2",
+          "san": "Bd2",
+          "explanation": ""
+        },
+        {
+          "fen": "r3kb1r/ppp2ppp/2n1b3/q7/3pN3/5N2/PPPB1PPP/R2QR1K1 b kq - 2 10",
+          "type": "auto",
+          "move": "a5d5",
+          "san": "Qd5",
+          "explanation": ""
+        },
+        {
+          "fen": "r3kb1r/ppp2ppp/2n1b3/3q4/3pN3/5N2/PPPB1PPP/R2QR1K1 w kq - 3 11",
+          "type": "student",
+          "move": "d2g5",
+          "san": "Bg5",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Scotch Gambit, Canal Variation",
+      "description": "ECO C56 – Italian Game: Scotch Gambit, Canal Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "type": "auto",
+          "move": "b8c6",
+          "san": "Nc6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+          "type": "auto",
+          "move": "e5d4",
+          "san": "exd4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
+          "type": "student",
+          "move": "f1c4",
+          "san": "Bc4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/8/2BpP3/5N2/PPP2PPP/RNBQK2R b KQkq - 1 4",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkb1r/pppp1ppp/2n2n2/8/2BpP3/5N2/PPP2PPP/RNBQK2R w KQkq - 2 5",
+          "type": "student",
+          "move": "e1g1",
+          "san": "O-O",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkb1r/pppp1ppp/2n2n2/8/2BpP3/5N2/PPP2PPP/RNBQ1RK1 b kq - 3 5",
+          "type": "auto",
+          "move": "f6e4",
+          "san": "Nxe4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkb1r/pppp1ppp/2n5/8/2Bpn3/5N2/PPP2PPP/RNBQ1RK1 w kq - 0 6",
+          "type": "student",
+          "move": "f1e1",
+          "san": "Re1",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkb1r/pppp1ppp/2n5/8/2Bpn3/5N2/PPP2PPP/RNBQR1K1 b kq - 1 6",
+          "type": "auto",
+          "move": "d7d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkb1r/ppp2ppp/2n5/3p4/2Bpn3/5N2/PPP2PPP/RNBQR1K1 w kq - 0 7",
+          "type": "student",
+          "move": "b1c3",
+          "san": "Nc3",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

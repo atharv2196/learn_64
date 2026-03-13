@@ -1,0 +1,511 @@
+{
+  "id": "trompowsky",
+  "opening": "Trompowsky Attack",
+  "category": "Opening",
+  "description": "Trompowsky Attack – 9 variation(s). Includes: Borg Variation, Classical Defense, Classical Defense, Big Center Variation…",
+  "side": "white",
+  "lines": [
+    {
+      "line_name": "Borg Variation",
+      "description": "ECO A45 – Trompowsky Attack: Borg Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+          "type": "student",
+          "move": "c1g5",
+          "san": "Bg5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/6B1/3P4/8/PPP1PPPP/RN1QKBNR b KQkq - 2 2",
+          "type": "auto",
+          "move": "f6e4",
+          "san": "Ne4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/8/6B1/3Pn3/8/PPP1PPPP/RN1QKBNR w KQkq - 3 3",
+          "type": "student",
+          "move": "g5f4",
+          "san": "Bf4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/8/8/3PnB2/8/PPP1PPPP/RN1QKBNR b KQkq - 4 3",
+          "type": "auto",
+          "move": "g7g5",
+          "san": "g5",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Classical Defense",
+      "description": "ECO A45 – Trompowsky Attack: Classical Defense",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+          "type": "student",
+          "move": "c1g5",
+          "san": "Bg5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/6B1/3P4/8/PPP1PPPP/RN1QKBNR b KQkq - 2 2",
+          "type": "auto",
+          "move": "e7e6",
+          "san": "e6",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Classical Defense, Big Center Variation",
+      "description": "ECO A45 – Trompowsky Attack: Classical Defense, Big Center Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+          "type": "student",
+          "move": "c1g5",
+          "san": "Bg5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/6B1/3P4/8/PPP1PPPP/RN1QKBNR b KQkq - 2 2",
+          "type": "auto",
+          "move": "e7e6",
+          "san": "e6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppp1ppp/4pn2/6B1/3P4/8/PPP1PPPP/RN1QKBNR w KQkq - 0 3",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Edge Variation",
+      "description": "ECO A45 – Trompowsky Attack: Edge Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+          "type": "student",
+          "move": "c1g5",
+          "san": "Bg5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/6B1/3P4/8/PPP1PPPP/RN1QKBNR b KQkq - 2 2",
+          "type": "auto",
+          "move": "f6e4",
+          "san": "Ne4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/8/6B1/3Pn3/8/PPP1PPPP/RN1QKBNR w KQkq - 3 3",
+          "type": "student",
+          "move": "g5h4",
+          "san": "Bh4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Edge Variation, Hergert Gambit",
+      "description": "ECO A45 – Trompowsky Attack: Edge Variation, Hergert Gambit",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+          "type": "student",
+          "move": "c1g5",
+          "san": "Bg5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/6B1/3P4/8/PPP1PPPP/RN1QKBNR b KQkq - 2 2",
+          "type": "auto",
+          "move": "f6e4",
+          "san": "Ne4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/8/6B1/3Pn3/8/PPP1PPPP/RN1QKBNR w KQkq - 3 3",
+          "type": "student",
+          "move": "g5h4",
+          "san": "Bh4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/8/8/3Pn2B/8/PPP1PPPP/RN1QKBNR b KQkq - 4 3",
+          "type": "auto",
+          "move": "c7c6",
+          "san": "c6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp1ppppp/2p5/8/3Pn2B/8/PPP1PPPP/RN1QKBNR w KQkq - 0 4",
+          "type": "student",
+          "move": "b1d2",
+          "san": "Nd2",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp1ppppp/2p5/8/3Pn2B/8/PPPNPPPP/R2QKBNR b KQkq - 1 4",
+          "type": "auto",
+          "move": "d8a5",
+          "san": "Qa5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kb1r/pp1ppppp/2p5/q7/3Pn2B/8/PPPNPPPP/R2QKBNR w KQkq - 2 5",
+          "type": "student",
+          "move": "c2c3",
+          "san": "c3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kb1r/pp1ppppp/2p5/q7/3Pn2B/2P5/PP1NPPPP/R2QKBNR b KQkq - 0 5",
+          "type": "auto",
+          "move": "e4d2",
+          "san": "Nxd2",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kb1r/pp1ppppp/2p5/q7/3P3B/2P5/PP1nPPPP/R2QKBNR w KQkq - 0 6",
+          "type": "student",
+          "move": "d1d2",
+          "san": "Qxd2",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kb1r/pp1ppppp/2p5/q7/3P3B/2P5/PP1QPPPP/R3KBNR b KQkq - 0 6",
+          "type": "auto",
+          "move": "d7d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kb1r/pp2pppp/2p5/q2p4/3P3B/2P5/PP1QPPPP/R3KBNR w KQkq - 0 7",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Edge Variation, Hergert Gambit",
+      "description": "ECO A45 – Trompowsky Attack: Edge Variation, Hergert Gambit",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+          "type": "student",
+          "move": "c1g5",
+          "san": "Bg5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/6B1/3P4/8/PPP1PPPP/RN1QKBNR b KQkq - 2 2",
+          "type": "auto",
+          "move": "f6e4",
+          "san": "Ne4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/8/6B1/3Pn3/8/PPP1PPPP/RN1QKBNR w KQkq - 3 3",
+          "type": "student",
+          "move": "g5h4",
+          "san": "Bh4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/8/8/3Pn2B/8/PPP1PPPP/RN1QKBNR b KQkq - 4 3",
+          "type": "auto",
+          "move": "d7d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/8/3p4/3Pn2B/8/PPP1PPPP/RN1QKBNR w KQkq - 0 4",
+          "type": "student",
+          "move": "f2f3",
+          "san": "f3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/8/3p4/3Pn2B/5P2/PPP1P1PP/RN1QKBNR b KQkq - 0 4",
+          "type": "auto",
+          "move": "e4f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/3P3B/5P2/PPP1P1PP/RN1QKBNR w KQkq - 1 5",
+          "type": "student",
+          "move": "b1c3",
+          "san": "Nc3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/3P3B/2N2P2/PPP1P1PP/R2QKBNR b KQkq - 2 5",
+          "type": "auto",
+          "move": "c8f5",
+          "san": "Bf5",
+          "explanation": ""
+        },
+        {
+          "fen": "rn1qkb1r/ppp1pppp/5n2/3p1b2/3P3B/2N2P2/PPP1P1PP/R2QKBNR w KQkq - 3 6",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Poisoned Pawn Variation",
+      "description": "ECO A45 – Trompowsky Attack: Poisoned Pawn Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+          "type": "student",
+          "move": "c1g5",
+          "san": "Bg5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/6B1/3P4/8/PPP1PPPP/RN1QKBNR b KQkq - 2 2",
+          "type": "auto",
+          "move": "c7c5",
+          "san": "c5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp1ppppp/5n2/2p3B1/3P4/8/PPP1PPPP/RN1QKBNR w KQkq - 0 3",
+          "type": "student",
+          "move": "d4d5",
+          "san": "d5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pp1ppppp/5n2/2pP2B1/8/8/PPP1PPPP/RN1QKBNR b KQkq - 0 3",
+          "type": "auto",
+          "move": "d8b6",
+          "san": "Qb6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnb1kb1r/pp1ppppp/1q3n2/2pP2B1/8/8/PPP1PPPP/RN1QKBNR w KQkq - 1 4",
+          "type": "student",
+          "move": "b1c3",
+          "san": "Nc3",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Raptor Variation",
+      "description": "ECO A45 – Trompowsky Attack: Raptor Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+          "type": "student",
+          "move": "c1g5",
+          "san": "Bg5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/6B1/3P4/8/PPP1PPPP/RN1QKBNR b KQkq - 2 2",
+          "type": "auto",
+          "move": "f6e4",
+          "san": "Ne4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/8/6B1/3Pn3/8/PPP1PPPP/RN1QKBNR w KQkq - 3 3",
+          "type": "student",
+          "move": "h2h4",
+          "san": "h4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Raptor Variation, Hergert Gambit",
+      "description": "ECO A45 – Trompowsky Attack: Raptor Variation, Hergert Gambit",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+          "type": "student",
+          "move": "c1g5",
+          "san": "Bg5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/5n2/6B1/3P4/8/PPP1PPPP/RN1QKBNR b KQkq - 2 2",
+          "type": "auto",
+          "move": "f6e4",
+          "san": "Ne4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/8/6B1/3Pn3/8/PPP1PPPP/RN1QKBNR w KQkq - 3 3",
+          "type": "student",
+          "move": "h2h4",
+          "san": "h4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/8/6B1/3Pn2P/8/PPP1PPP1/RN1QKBNR b KQkq - 0 3",
+          "type": "auto",
+          "move": "e4g5",
+          "san": "Nxg5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/8/6n1/3P3P/8/PPP1PPP1/RN1QKBNR w KQkq - 0 4",
+          "type": "student",
+          "move": "h4g5",
+          "san": "hxg5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkb1r/pppppppp/8/6P1/3P4/8/PPP1PPP1/RN1QKBNR b KQkq - 0 4",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

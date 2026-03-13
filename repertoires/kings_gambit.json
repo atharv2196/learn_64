@@ -1,0 +1,767 @@
+{
+  "id": "kings_gambit",
+  "opening": "King's Gambit",
+  "category": "Gambit",
+  "description": "King's Gambit – 12 variation(s). Includes: Clam Variation, King's Gambit Reversed, Classical Variation, Classical Variation…",
+  "side": "white",
+  "lines": [
+    {
+      "line_name": "Clam Variation, King's Gambit Reversed",
+      "description": "ECO C20 – King's Pawn Game: Clam Variation, King's Gambit Reversed",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "d2d3",
+          "san": "d3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/3P4/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+          "type": "auto",
+          "move": "f7f5",
+          "san": "f5",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Classical Variation",
+      "description": "ECO C30 – King's Gambit Declined: Classical Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "f2f4",
+          "san": "f4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4PP2/8/PPPP2PP/RNBQKBNR b KQkq - 0 2",
+          "type": "auto",
+          "move": "f8c5",
+          "san": "Bc5",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Classical Variation",
+      "description": "ECO C30 – King's Gambit Declined: Classical Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "f2f4",
+          "san": "f4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4PP2/8/PPPP2PP/RNBQKBNR b KQkq - 0 2",
+          "type": "auto",
+          "move": "f8c5",
+          "san": "Bc5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/pppp1ppp/8/2b1p3/4PP2/8/PPPP2PP/RNBQKBNR w KQkq - 1 3",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/pppp1ppp/8/2b1p3/4PP2/5N2/PPPP2PP/RNBQKB1R b KQkq - 2 3",
+          "type": "auto",
+          "move": "d7d6",
+          "san": "d6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/ppp2ppp/3p4/2b1p3/4PP2/5N2/PPPP2PP/RNBQKB1R w KQkq - 0 4",
+          "type": "student",
+          "move": "c2c3",
+          "san": "c3",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Classical Variation, Euwe Attack",
+      "description": "ECO C30 – King's Gambit Declined: Classical Variation, Euwe Attack",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "f2f4",
+          "san": "f4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4PP2/8/PPPP2PP/RNBQKBNR b KQkq - 0 2",
+          "type": "auto",
+          "move": "f8c5",
+          "san": "Bc5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/pppp1ppp/8/2b1p3/4PP2/8/PPPP2PP/RNBQKBNR w KQkq - 1 3",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/pppp1ppp/8/2b1p3/4PP2/5N2/PPPP2PP/RNBQKB1R b KQkq - 2 3",
+          "type": "auto",
+          "move": "d7d6",
+          "san": "d6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/ppp2ppp/3p4/2b1p3/4PP2/5N2/PPPP2PP/RNBQKB1R w KQkq - 0 4",
+          "type": "student",
+          "move": "c2c3",
+          "san": "c3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/ppp2ppp/3p4/2b1p3/4PP2/2P2N2/PP1P2PP/RNBQKB1R b KQkq - 0 4",
+          "type": "auto",
+          "move": "c8g4",
+          "san": "Bg4",
+          "explanation": ""
+        },
+        {
+          "fen": "rn1qk1nr/ppp2ppp/3p4/2b1p3/4PPb1/2P2N2/PP1P2PP/RNBQKB1R w KQkq - 1 5",
+          "type": "student",
+          "move": "f4e5",
+          "san": "fxe5",
+          "explanation": ""
+        },
+        {
+          "fen": "rn1qk1nr/ppp2ppp/3p4/2b1P3/4P1b1/2P2N2/PP1P2PP/RNBQKB1R b KQkq - 0 5",
+          "type": "auto",
+          "move": "d6e5",
+          "san": "dxe5",
+          "explanation": ""
+        },
+        {
+          "fen": "rn1qk1nr/ppp2ppp/8/2b1p3/4P1b1/2P2N2/PP1P2PP/RNBQKB1R w KQkq - 0 6",
+          "type": "student",
+          "move": "d1a4",
+          "san": "Qa4+",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Classical Variation, Rotlewi Countergambit",
+      "description": "ECO C30 – King's Gambit Declined: Classical Variation, Rotlewi Countergambit",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "f2f4",
+          "san": "f4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4PP2/8/PPPP2PP/RNBQKBNR b KQkq - 0 2",
+          "type": "auto",
+          "move": "f8c5",
+          "san": "Bc5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/pppp1ppp/8/2b1p3/4PP2/8/PPPP2PP/RNBQKBNR w KQkq - 1 3",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/pppp1ppp/8/2b1p3/4PP2/5N2/PPPP2PP/RNBQKB1R b KQkq - 2 3",
+          "type": "auto",
+          "move": "d7d6",
+          "san": "d6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/ppp2ppp/3p4/2b1p3/4PP2/5N2/PPPP2PP/RNBQKB1R w KQkq - 0 4",
+          "type": "student",
+          "move": "b2b4",
+          "san": "b4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Classical Variation, Rubinstein Countergambit",
+      "description": "ECO C30 – King's Gambit Declined: Classical Variation, Rubinstein Countergambit",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "f2f4",
+          "san": "f4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4PP2/8/PPPP2PP/RNBQKBNR b KQkq - 0 2",
+          "type": "auto",
+          "move": "f8c5",
+          "san": "Bc5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/pppp1ppp/8/2b1p3/4PP2/8/PPPP2PP/RNBQKBNR w KQkq - 1 3",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/pppp1ppp/8/2b1p3/4PP2/5N2/PPPP2PP/RNBQKB1R b KQkq - 2 3",
+          "type": "auto",
+          "move": "d7d6",
+          "san": "d6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/ppp2ppp/3p4/2b1p3/4PP2/5N2/PPPP2PP/RNBQKB1R w KQkq - 0 4",
+          "type": "student",
+          "move": "c2c3",
+          "san": "c3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/ppp2ppp/3p4/2b1p3/4PP2/2P2N2/PP1P2PP/RNBQKB1R b KQkq - 0 4",
+          "type": "auto",
+          "move": "f7f5",
+          "san": "f5",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Classical Variation, Walthoffen Attack",
+      "description": "ECO C30 – King's Gambit Declined: Classical Variation, Walthoffen Attack",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "f2f4",
+          "san": "f4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4PP2/8/PPPP2PP/RNBQKBNR b KQkq - 0 2",
+          "type": "auto",
+          "move": "f8c5",
+          "san": "Bc5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/pppp1ppp/8/2b1p3/4PP2/8/PPPP2PP/RNBQKBNR w KQkq - 1 3",
+          "type": "student",
+          "move": "d1h5",
+          "san": "Qh5",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Classical, Hanham Variation",
+      "description": "ECO C30 – King's Gambit Declined: Classical, Hanham Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "f2f4",
+          "san": "f4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4PP2/8/PPPP2PP/RNBQKBNR b KQkq - 0 2",
+          "type": "auto",
+          "move": "f8c5",
+          "san": "Bc5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/pppp1ppp/8/2b1p3/4PP2/8/PPPP2PP/RNBQKBNR w KQkq - 1 3",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/pppp1ppp/8/2b1p3/4PP2/5N2/PPPP2PP/RNBQKB1R b KQkq - 2 3",
+          "type": "auto",
+          "move": "d7d6",
+          "san": "d6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/ppp2ppp/3p4/2b1p3/4PP2/5N2/PPPP2PP/RNBQKB1R w KQkq - 0 4",
+          "type": "student",
+          "move": "b1c3",
+          "san": "Nc3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/ppp2ppp/3p4/2b1p3/4PP2/2N2N2/PPPP2PP/R1BQKB1R b KQkq - 1 4",
+          "type": "auto",
+          "move": "b8d7",
+          "san": "Nd7",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Classical, Réti Variation",
+      "description": "ECO C30 – King's Gambit Declined: Classical, Réti Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "f2f4",
+          "san": "f4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4PP2/8/PPPP2PP/RNBQKBNR b KQkq - 0 2",
+          "type": "auto",
+          "move": "f8c5",
+          "san": "Bc5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/pppp1ppp/8/2b1p3/4PP2/8/PPPP2PP/RNBQKBNR w KQkq - 1 3",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/pppp1ppp/8/2b1p3/4PP2/5N2/PPPP2PP/RNBQKB1R b KQkq - 2 3",
+          "type": "auto",
+          "move": "d7d6",
+          "san": "d6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/ppp2ppp/3p4/2b1p3/4PP2/5N2/PPPP2PP/RNBQKB1R w KQkq - 0 4",
+          "type": "student",
+          "move": "c2c3",
+          "san": "c3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/ppp2ppp/3p4/2b1p3/4PP2/2P2N2/PP1P2PP/RNBQKB1R b KQkq - 0 4",
+          "type": "auto",
+          "move": "f7f5",
+          "san": "f5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/ppp3pp/3p4/2b1pp2/4PP2/2P2N2/PP1P2PP/RNBQKB1R w KQkq - 0 5",
+          "type": "student",
+          "move": "f4e5",
+          "san": "fxe5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/ppp3pp/3p4/2b1Pp2/4P3/2P2N2/PP1P2PP/RNBQKB1R b KQkq - 0 5",
+          "type": "auto",
+          "move": "d6e5",
+          "san": "dxe5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/ppp3pp/8/2b1pp2/4P3/2P2N2/PP1P2PP/RNBQKB1R w KQkq - 0 6",
+          "type": "student",
+          "move": "d2d4",
+          "san": "d4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/ppp3pp/8/2b1pp2/3PP3/2P2N2/PP4PP/RNBQKB1R b KQkq - 0 6",
+          "type": "auto",
+          "move": "e5d4",
+          "san": "exd4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/ppp3pp/8/2b2p2/3pP3/2P2N2/PP4PP/RNBQKB1R w KQkq - 0 7",
+          "type": "student",
+          "move": "f1c4",
+          "san": "Bc4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Classical, Soldatenkov Variation",
+      "description": "ECO C30 – King's Gambit Declined: Classical, Soldatenkov Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "f2f4",
+          "san": "f4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4PP2/8/PPPP2PP/RNBQKBNR b KQkq - 0 2",
+          "type": "auto",
+          "move": "f8c5",
+          "san": "Bc5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/pppp1ppp/8/2b1p3/4PP2/8/PPPP2PP/RNBQKBNR w KQkq - 1 3",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/pppp1ppp/8/2b1p3/4PP2/5N2/PPPP2PP/RNBQKB1R b KQkq - 2 3",
+          "type": "auto",
+          "move": "d7d6",
+          "san": "d6",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqk1nr/ppp2ppp/3p4/2b1p3/4PP2/5N2/PPPP2PP/RNBQKB1R w KQkq - 0 4",
+          "type": "student",
+          "move": "f4e5",
+          "san": "fxe5",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Classical, Svenonius Variation",
+      "description": "ECO C30 – King's Gambit Declined: Classical, Svenonius Variation",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "f1c4",
+          "san": "Bc4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/2B1P3/8/PPPP1PPP/RNBQK1NR b KQkq - 1 2",
+          "type": "auto",
+          "move": "b8c6",
+          "san": "Nc6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/8/PPPP1PPP/RNBQK1NR w KQkq - 2 3",
+          "type": "student",
+          "move": "b1c3",
+          "san": "Nc3",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/2N5/PPPP1PPP/R1BQK1NR b KQkq - 3 3",
+          "type": "auto",
+          "move": "g8f6",
+          "san": "Nf6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/2N5/PPPP1PPP/R1BQK1NR w KQkq - 4 4",
+          "type": "student",
+          "move": "d2d3",
+          "san": "d3",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/2NP4/PPP2PPP/R1BQK1NR b KQkq - 0 4",
+          "type": "auto",
+          "move": "f8c5",
+          "san": "Bc5",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/2NP4/PPP2PPP/R1BQK1NR w KQkq - 1 5",
+          "type": "student",
+          "move": "f2f4",
+          "san": "f4",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1PP2/2NP4/PPP3PP/R1BQK1NR b KQkq - 0 5",
+          "type": "auto",
+          "move": "d7d6",
+          "san": "d6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqk2r/ppp2ppp/2np1n2/2b1p3/2B1PP2/2NP4/PPP3PP/R1BQK1NR w KQkq - 0 6",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqk2r/ppp2ppp/2np1n2/2b1p3/2B1PP2/2NP1N2/PPP3PP/R1BQK2R b KQkq - 1 6",
+          "type": "auto",
+          "move": "c8g4",
+          "san": "Bg4",
+          "explanation": ""
+        },
+        {
+          "fen": "r2qk2r/ppp2ppp/2np1n2/2b1p3/2B1PPb1/2NP1N2/PPP3PP/R1BQK2R w KQkq - 2 7",
+          "type": "student",
+          "move": "h2h3",
+          "san": "h3",
+          "explanation": ""
+        },
+        {
+          "fen": "r2qk2r/ppp2ppp/2np1n2/2b1p3/2B1PPb1/2NP1N1P/PPP3P1/R1BQK2R b KQkq - 0 7",
+          "type": "auto",
+          "move": "g4f3",
+          "san": "Bxf3",
+          "explanation": ""
+        },
+        {
+          "fen": "r2qk2r/ppp2ppp/2np1n2/2b1p3/2B1PP2/2NP1b1P/PPP3P1/R1BQK2R w KQkq - 0 8",
+          "type": "student",
+          "move": "d1f3",
+          "san": "Qxf3",
+          "explanation": ""
+        },
+        {
+          "fen": "r2qk2r/ppp2ppp/2np1n2/2b1p3/2B1PP2/2NP1Q1P/PPP3P1/R1B1K2R b KQkq - 0 8",
+          "type": "auto",
+          "move": "e5f4",
+          "san": "exf4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "line_name": "Hobbs-Zilbermints Gambit",
+      "description": "ECO C30 – King's Gambit Declined: Hobbs-Zilbermints Gambit",
+      "moves": [
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "type": "student",
+          "move": "e2e4",
+          "san": "e4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "type": "auto",
+          "move": "e7e5",
+          "san": "e5",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "type": "student",
+          "move": "f2f4",
+          "san": "f4",
+          "explanation": ""
+        },
+        {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4PP2/8/PPPP2PP/RNBQKBNR b KQkq - 0 2",
+          "type": "auto",
+          "move": "b8c6",
+          "san": "Nc6",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4PP2/8/PPPP2PP/RNBQKBNR w KQkq - 1 3",
+          "type": "student",
+          "move": "g1f3",
+          "san": "Nf3",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4PP2/5N2/PPPP2PP/RNBQKB1R b KQkq - 2 3",
+          "type": "auto",
+          "move": "g7g5",
+          "san": "g5",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1p1p/2n5/4p1p1/4PP2/5N2/PPPP2PP/RNBQKB1R w KQkq - 0 4",
+          "type": "student",
+          "move": "f4g5",
+          "san": "fxg5",
+          "explanation": ""
+        },
+        {
+          "fen": "r1bqkbnr/pppp1p1p/2n5/4p1P1/4P3/5N2/PPPP2PP/RNBQKB1R b KQkq - 0 4",
+          "type": "auto",
+          "move": "h7h6",
+          "san": "h6",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

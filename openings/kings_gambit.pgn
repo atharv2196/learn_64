@@ -1,0 +1,17 @@
+[Event "King's Gambit Accepted"]
+[Site "Training"]
+[Date "2025.01.01"]
+[White "Repertoire"]
+[Black "Repertoire"]
+[Result "*"]
+
+1. e4 e5 2. f4 exf4 3. Nf3 g5 4. h4 g4 5. Ne5 Nf6 6. Bc4 d5 7. exd5 Bd6 8. d4 NH5 *
+
+[Event "King's Gambit Declined"]
+[Site "Training"]
+[Date "2025.01.01"]
+[White "Repertoire"]
+[Black "Repertoire"]
+[Result "*"]
+
+1. e4 e5 2. f4 Bc5 3. Nf3 d6 4. Nc3 Nf6 5. Bc4 O-O 6. d3 Nc6 *
