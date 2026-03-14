@@ -47,6 +47,9 @@ class Settings(BaseSettings):
     RESEND_API_KEY: str = ""
     RESEND_FROM: str = ""
 
+    # ── OTP debug mode (temporary fallback) ──────────────
+    OTP_DEBUG_MODE: bool = False
+
     model_config = {"env_file": ".env", "env_file_encoding": "utf-8"}
 
 

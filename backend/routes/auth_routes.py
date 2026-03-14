@@ -5,10 +5,12 @@ Authentication routes - Firebase-based with role support and OTP email verificat
 from __future__ import annotations
 
 from datetime import datetime, timezone
+import logging
 
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.ext.asyncio import AsyncSession
 
+from backend.config import get_settings
 from backend.database import get_db
 from backend.models.user_model import User
 from backend.auth import get_current_user
@@ -16,6 +18,8 @@ from backend.schemas import OTPVerify
 from backend.services.email_service import generate_otp, otp_expiry, send_otp_email
 
 router = APIRouter(prefix="/api/auth", tags=["auth"])
+logger = logging.getLogger("learn64.auth")
+settings = get_settings()
 
 
 @router.get("/me")
@@ -47,14 +51,21 @@ async def request_otp(
 
     sent = send_otp_email(current_user.email, otp)
     if not sent:
-        return {
+        logger.warning("OTP fallback for %s is %s", current_user.email, otp)
+        payload = {
             "detail": (
                 "OTP generated but email delivery failed. "
                 "Open backend logs to copy the OTP code."
             )
         }
+        if settings.OTP_DEBUG_MODE:
+            payload["otp_code"] = otp
+        return payload
 
-    return {"detail": "OTP sent to your email."}
+    payload = {"detail": "OTP sent to your email."}
+    if settings.OTP_DEBUG_MODE:
+        payload["otp_code"] = otp
+    return payload
 
 
 @router.post("/verify-otp")

@@ -11,6 +11,7 @@ export default function VerifyEmailPage() {
   const { user, emailVerified, fetchProfile } = useAuth()
   const [otpSent, setOtpSent] = useState(false)
   const [otpCode, setOtpCode] = useState('')
+  const [debugOtp, setDebugOtp] = useState('')
   const [loading, setLoading] = useState(false)
 
   if (!user) return <Navigate to="/login" replace />
@@ -19,9 +20,16 @@ export default function VerifyEmailPage() {
   const handleRequestOTP = async () => {
     setLoading(true)
     try {
-      await requestOTP()
+      const { data } = await requestOTP()
       setOtpSent(true)
-      toast.success('OTP sent to your email')
+      if (data?.otp_code) {
+        setDebugOtp(String(data.otp_code))
+        setOtpCode(String(data.otp_code))
+        toast.success(`OTP ready: ${data.otp_code}`)
+      } else {
+        setDebugOtp('')
+        toast.success('OTP sent to your email')
+      }
     } catch (err) {
       toast.error(err.response?.data?.detail || 'Failed to send OTP')
     } finally {
@@ -72,6 +80,11 @@ export default function VerifyEmailPage() {
           </button>
         ) : (
           <div className="space-y-3">
+            {debugOtp && (
+              <div className="px-3 py-2 rounded-lg bg-amber-500/10 border border-amber-500/30 text-amber-300 text-sm">
+                Debug OTP: <span className="font-mono font-semibold">{debugOtp}</span>
+              </div>
+            )}
             <input
               type="text"
               maxLength={6}
