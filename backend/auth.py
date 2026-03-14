@@ -61,6 +61,7 @@ async def get_current_user(
     firebase_uid = cast(str, decoded.get("user_id") or decoded["sub"])
     email = cast(str, decoded.get("email", ""))
     name = cast(str, decoded.get("name") or decoded.get("display_name") or email.split("@")[0])
+    email_verified = bool(decoded.get("email_verified", False))
 
     # Find or create user by firebase_uid
     stmt = select(User).where(User.firebase_uid == firebase_uid)
@@ -94,6 +95,7 @@ async def get_current_user(
             name=name,
             email=email,
             role=role,
+            email_verified=email_verified,
         )
         db.add(user)
         await db.flush()
@@ -103,6 +105,13 @@ async def get_current_user(
     if user.name != name or user.email != email:
         user.name = name
         user.email = email
+        await db.flush()
+
+    # Trust Firebase's verified-email claim for Google sign-in users.
+    if email_verified and not user.email_verified:
+        user.email_verified = True
+        user.otp_code = None
+        user.otp_expires_at = None
         await db.flush()
 
     # Emergency fallback: allow instant verification in debug mode.
