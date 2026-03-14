@@ -11,9 +11,15 @@ import DashboardPage from './pages/DashboardPage'
 import AdminPage from './pages/AdminPage'
 import AssignmentsPage from './pages/AssignmentsPage'
 import VerifyEmailPage from './pages/VerifyEmailPage'
+import RoleSelectPage from './pages/RoleSelectPage'
+
+function hasCompletedRoleCheck(profile) {
+  if (!profile?.id) return false
+  return sessionStorage.getItem(`learn64_role_checked_${profile.id}`) === '1'
+}
 
 function ProtectedRoute({ children }) {
-  const { user, loading, emailVerified } = useAuth()
+  const { user, loading, emailVerified, profile } = useAuth()
   if (loading) {
     return (
       <div className="flex items-center justify-center min-h-screen">
@@ -23,6 +29,7 @@ function ProtectedRoute({ children }) {
   }
   if (!user) return <Navigate to="/login" replace />
   if (!emailVerified) return <Navigate to="/verify-email" replace />
+  if (!hasCompletedRoleCheck(profile)) return <Navigate to="/select-role" replace />
   return children
 }
 
@@ -57,7 +64,7 @@ function TeacherRoute({ children }) {
 }
 
 function AppRoutes() {
-  const { user, loading, emailVerified } = useAuth()
+  const { user, loading, emailVerified, profile } = useAuth()
 
   if (loading) {
     return (
@@ -77,6 +84,20 @@ function AppRoutes() {
           element={
             user ? (
               emailVerified ? <Navigate to="/" replace /> : <VerifyEmailPage />
+            ) : (
+              <Navigate to="/login" replace />
+            )
+          }
+        />
+        <Route
+          path="/select-role"
+          element={
+            user ? (
+              emailVerified ? (
+                hasCompletedRoleCheck(profile) ? <Navigate to="/" replace /> : <RoleSelectPage />
+              ) : (
+                <Navigate to="/verify-email" replace />
+              )
             ) : (
               <Navigate to="/login" replace />
             )
