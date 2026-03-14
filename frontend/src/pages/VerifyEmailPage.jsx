@@ -5,7 +5,7 @@ import { useState } from 'react'
 import { Navigate } from 'react-router-dom'
 import toast from 'react-hot-toast'
 import { useAuth } from '../context/AuthContext'
-import { requestOTP, verifyOTP } from '../api/trainerApi'
+import { requestOTP, verifyOTP, debugVerifyEmail } from '../api/trainerApi'
 
 export default function VerifyEmailPage() {
   const { user, emailVerified, fetchProfile } = useAuth()
@@ -50,6 +50,19 @@ export default function VerifyEmailPage() {
       toast.success('Email verified successfully')
     } catch (err) {
       toast.error(err.response?.data?.detail || 'Invalid OTP code')
+    } finally {
+      setLoading(false)
+    }
+  }
+
+  const handleDebugVerify = async () => {
+    setLoading(true)
+    try {
+      await debugVerifyEmail()
+      await fetchProfile()
+      toast.success('Email verified via debug mode')
+    } catch (err) {
+      toast.error(err.response?.data?.detail || 'Debug verify failed')
     } finally {
       setLoading(false)
     }
@@ -106,6 +119,13 @@ export default function VerifyEmailPage() {
               className="text-sm text-gray-500 hover:text-gray-300 transition"
             >
               Resend code
+            </button>
+            <button
+              onClick={handleDebugVerify}
+              disabled={loading}
+              className="text-sm text-amber-400 hover:text-amber-300 transition"
+            >
+              Debug: Verify without OTP
             </button>
           </div>
         )}

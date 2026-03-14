@@ -106,6 +106,9 @@ export const requestOTP = () => api.post('/auth/request-otp')
 /** Verify OTP code */
 export const verifyOTP = (otpCode) => api.post('/auth/verify-otp', { otp_code: otpCode })
 
+/** Debug fallback: verify email directly when OTP_DEBUG_MODE is enabled */
+export const debugVerifyEmail = () => api.post('/auth/debug-verify')
+
 // ── Assignment endpoints ────────────────────────────────
 
 /** Create assignment (teacher/admin → student) */

@@ -94,3 +94,22 @@ async def verify_otp(
     await db.flush()
 
     return {"detail": "Email verified successfully."}
+
+
+@router.post("/debug-verify")
+async def debug_verify(
+    db: AsyncSession = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    """Debug fallback: directly verify email when OTP_DEBUG_MODE is enabled."""
+    if not settings.OTP_DEBUG_MODE:
+        raise HTTPException(status_code=403, detail="Debug verify is disabled.")
+
+    if current_user.email_verified:
+        return {"detail": "Email already verified."}
+
+    current_user.email_verified = True
+    current_user.otp_code = None
+    current_user.otp_expires_at = None
+    await db.flush()
+    return {"detail": "Email verified via debug mode."}
