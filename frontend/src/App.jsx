@@ -19,7 +19,7 @@ function hasCompletedRoleCheck(profile) {
 }
 
 function ProtectedRoute({ children }) {
-  const { user, loading, emailVerified, profile } = useAuth()
+  const { user, loading, profile } = useAuth()
   if (loading) {
     return (
       <div className="flex items-center justify-center min-h-screen">
@@ -28,13 +28,12 @@ function ProtectedRoute({ children }) {
     )
   }
   if (!user) return <Navigate to="/login" replace />
-  if (!emailVerified) return <Navigate to="/verify-email" replace />
   if (!hasCompletedRoleCheck(profile)) return <Navigate to="/select-role" replace />
   return children
 }
 
 function AdminRoute({ children }) {
-  const { user, loading, isAdmin, emailVerified } = useAuth()
+  const { user, loading, isAdmin } = useAuth()
   if (loading) {
     return (
       <div className="flex items-center justify-center min-h-screen">
@@ -43,13 +42,12 @@ function AdminRoute({ children }) {
     )
   }
   if (!user) return <Navigate to="/login" replace />
-  if (!emailVerified) return <Navigate to="/verify-email" replace />
   if (!isAdmin) return <Navigate to="/" replace />
   return children
 }
 
 function TeacherRoute({ children }) {
-  const { user, loading, isAdmin, isTeacher, emailVerified } = useAuth()
+  const { user, loading, isAdmin, isTeacher } = useAuth()
   if (loading) {
     return (
       <div className="flex items-center justify-center min-h-screen">
@@ -58,13 +56,12 @@ function TeacherRoute({ children }) {
     )
   }
   if (!user) return <Navigate to="/login" replace />
-  if (!emailVerified) return <Navigate to="/verify-email" replace />
   if (!isAdmin && !isTeacher) return <Navigate to="/" replace />
   return children
 }
 
 function AppRoutes() {
-  const { user, loading, emailVerified, profile } = useAuth()
+  const { user, loading, profile } = useAuth()
 
   if (loading) {
     return (
@@ -83,7 +80,7 @@ function AppRoutes() {
           path="/verify-email"
           element={
             user ? (
-              emailVerified ? <Navigate to="/" replace /> : <VerifyEmailPage />
+              <Navigate to="/" replace />
             ) : (
               <Navigate to="/login" replace />
             )
@@ -93,11 +90,7 @@ function AppRoutes() {
           path="/select-role"
           element={
             user ? (
-              emailVerified ? (
-                hasCompletedRoleCheck(profile) ? <Navigate to="/" replace /> : <RoleSelectPage />
-              ) : (
-                <Navigate to="/verify-email" replace />
-              )
+              hasCompletedRoleCheck(profile) ? <Navigate to="/" replace /> : <RoleSelectPage />
             ) : (
               <Navigate to="/login" replace />
             )

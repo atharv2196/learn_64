@@ -133,11 +133,6 @@ async def require_admin(
             status_code=status.HTTP_403_FORBIDDEN,
             detail="Admin access required.",
         )
-    if not current_user.email_verified:
-        raise HTTPException(
-            status_code=status.HTTP_403_FORBIDDEN,
-            detail="Admin email not verified. Please verify with OTP first.",
-        )
     return current_user
 
 
@@ -150,21 +145,11 @@ async def require_teacher_or_admin(
             status_code=status.HTTP_403_FORBIDDEN,
             detail="Teacher or admin access required.",
         )
-    if not current_user.email_verified:
-        raise HTTPException(
-            status_code=status.HTTP_403_FORBIDDEN,
-            detail="Email verification required. Please verify with OTP first.",
-        )
     return current_user
 
 
 async def require_verified_user(
     current_user: User = Depends(get_current_user),
 ) -> User:
-    """Dependency - requires a signed-in user with verified email OTP."""
-    if not current_user.email_verified:
-        raise HTTPException(
-            status_code=status.HTTP_403_FORBIDDEN,
-            detail="Email verification required. Please verify with OTP first.",
-        )
+    """Dependency - signed-in user requirement (OTP verification disabled)."""
     return current_user
