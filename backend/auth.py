@@ -105,6 +105,13 @@ async def get_current_user(
         user.email = email
         await db.flush()
 
+    # Emergency fallback: allow instant verification in debug mode.
+    if settings.OTP_DEBUG_MODE and not user.email_verified:
+        user.email_verified = True
+        user.otp_code = None
+        user.otp_expires_at = None
+        await db.flush()
+
     return user
 
 
